@@ -1,0 +1,2127 @@
+{
+"general": {
+"version": "15"
+},
+"project": {
+"game": {
+"name": "LeoDungeon",
+"version": "1.0.0",
+"width": "1820",
+"height": "1024",
+"font": "Cartoon",
+"lightAmbient": "255",
+"balloonImageMargin": "10,10,63,33",
+"balloonTextMargin": "10,10,11,36",
+"choiceMargin": "10,150,10,10",
+"scripts": {
+"init": "// this script is called when a new game is started or when a previous game is loaded\r\n// you can set here your variables that will be initialized even for old savegames"
+},
+"languages": {
+"english": "1",
+"os": "1",
+"native": "English",
+"default": "English"
+},
+"builds": [
+{
+"platform": "WINDOWS",
+"name": "windows"
+},
+{
+"platform": "WINDOWS",
+"name": "play_windows"
+},
+{
+"platform": "WEB",
+"name": "play_web",
+"distribution": "Local"
+}
+]
+},
+"palette": {
+"Blue": 16744448,
+"Brown": 2121888,
+"Cyan": 15266376,
+"DarkGreen": 32768,
+"Gold": 2138336,
+"Gray": 10398381,
+"Green": 5760599,
+"Magenta": 15357406,
+"Maroon": 160,
+"Orange": 33023,
+"Pink": 12632319,
+"Purple": 9519498,
+"Red": 3937500,
+"Silver": 12632256,
+"Yellow": 6356991,
+"White": 16777215
+},
+"layout": {
+"autosave": {
+"active": true,
+"width": 128,
+"height": 128
+},
+"bag": {
+"active": true,
+"x": 1688,
+"width": 128,
+"height": 128,
+"horz": 2,
+"rclick": true
+},
+"detach": {
+"y": 128,
+"width": 128,
+"height": 128,
+"horz": 2,
+"bag": "Enabled"
+},
+"items": {
+"active": true,
+"y": 880,
+"width": 1820,
+"height": 128,
+"horz": 3,
+"vert": 2,
+"bag": "Enabled"
+},
+"legend": {
+"active": true,
+"x": 160,
+"y": 16,
+"width": 1500,
+"height": 32,
+"horz": 3,
+"align": "Top"
+},
+"magnify": {
+"active": true,
+"width": 400,
+"height": 400,
+"zoom": 200
+},
+"menu": {
+"active": true,
+"x": 1688,
+"y": 128,
+"width": 128,
+"height": 128,
+"horz": 2,
+"bag": "Enabled"
+},
+"players": {
+"x": 1688,
+"y": 256,
+"width": 128,
+"height": 512,
+"vert": 3,
+"bag": "Enabled"
+},
+"shutup": {
+"active": true,
+"x": 1688,
+"width": 128,
+"height": 128,
+"horz": 2
+}
+}
+},
+"scenario": {
+"board": {
+"nextid": 8,
+"boxes": [
+{
+"type": 257,
+"id": 1,
+"name": "start",
+"y": 8,
+"plugs": [
+{
+"id": 2,
+"type": 3,
+"trgs": [
+6
+]
+}
+],
+"exit": "// Assign an object to the player\r\ncontrol P_HERO O_HERO\r\n// Change the current player\r\nswitch P_HERO\r\n// Change the current scene\r\njump S_COUR_DUNGEON"
+},
+{
+"type": 260,
+"id": 3,
+"name": "end",
+"x": 200,
+"y": 8,
+"plugs": [
+{
+"id": 4,
+"type": 2
+}
+]
+},
+{
+"type": 256,
+"id": 5,
+"name": "#puzzle",
+"x": 96,
+"y": 8,
+"plugs": [
+{
+"id": 6,
+"type": 2
+},
+{
+"id": 7,
+"type": 3,
+"trgs": [
+4
+]
+}
+]
+}
+]
+}
+},
+"roles": [
+{
+"sid": 2,
+"uid": "R_HOME",
+"graph": {
+"board": {
+"nextid": 3,
+"boxes": [
+{
+"type": 257,
+"id": 1,
+"plugs": [
+{
+"id": 2,
+"type": 3
+}
+]
+}
+]
+}
+}
+}
+],
+"scenes": [
+{
+"scene": {
+"lightAmbient": -1,
+"lightBlur": -1,
+"backOpacityMin": 100,
+"backOpacityMax": 100,
+"backOpacitySpeed": 100,
+"layers": {
+"MA": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"MB": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"MC": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"MD": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"FA": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"FB": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"FC": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+},
+"FD": {
+"speedX": 100,
+"speedY": 100,
+"parallax": 100,
+"opacityMin": 100,
+"opacityMax": 100,
+"opacitySpeed": 100
+}
+},
+"zoom": 15,
+"nextID": 1,
+"x": -339,
+"y": -114
+},
+"sid": 17,
+"uid": "S_COUR_DUNGEON"
+}
+],
+"objects": [
+{
+"object": {
+"bbox": true,
+"maxScale": 100,
+"width": 14,
+"height": 16
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "61c3424d23787d2865254145e0041b45",
+"wtrim": 14,
+"htrim": 16,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 18,
+"hdraw": 20
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 3,
+"uid": "O_HERO",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 14,
+"h": 16
+}
+],
+"packs": [
+{
+"count": 1
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"width": 16,
+"height": 16
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT",
+"frames": [
+{
+"md5": "f684522040f340cf3526c12c578caf88",
+"wtrim": 16,
+"htrim": 16,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 20,
+"hdraw": 20
+}
+],
+"count": 1
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "f684522040f340cf3526c12c578caf88",
+"wtrim": 16,
+"htrim": 16,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 20,
+"hdraw": 20
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"flip": true
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 5,
+"uid": "O_GHOST",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 16,
+"h": 16
+},
+{
+"index": 1,
+"flipped": true
+}
+],
+"packs": [
+{
+"count": 2
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"width": 8,
+"height": 16
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT",
+"frames": [
+{
+"md5": "62210ad6f3bb0833a460e9f79f403100",
+"wtrim": 8,
+"htrim": 16,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 12,
+"hdraw": 20
+}
+],
+"count": 1
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "62210ad6f3bb0833a460e9f79f403100",
+"wtrim": 8,
+"htrim": 16,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 12,
+"hdraw": 20
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"flip": true
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 6,
+"uid": "O_SWORD",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 8,
+"h": 16
+},
+{
+"index": 1,
+"flipped": true
+}
+],
+"packs": [
+{
+"count": 2
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"width": 16,
+"height": 16
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT",
+"frames": [
+{
+"md5": "0152fa30d50e28d87ad7793b5737119a",
+"wtrim": 16,
+"htrim": 16,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 20,
+"hdraw": 20
+}
+],
+"count": 1
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "0152fa30d50e28d87ad7793b5737119a",
+"wtrim": 16,
+"htrim": 16,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 20,
+"hdraw": 20
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"flip": true
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 7,
+"uid": "O_DOOR",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 16,
+"h": 16
+},
+{
+"index": 1,
+"flipped": true
+}
+],
+"packs": [
+{
+"count": 2
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"width": 16,
+"height": 16
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "7a047c78a1740dbb9ed86c3116193dc4",
+"wtrim": 16,
+"htrim": 16,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 20,
+"hdraw": 20
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 8,
+"uid": "O_HARROW",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 16,
+"h": 16
+}
+],
+"packs": [
+{
+"count": 1
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"width": 16,
+"height": 16
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "d7c1ee9f5a0ade5ea1729a62bce6bfe2",
+"wtrim": 16,
+"htrim": 16,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 20,
+"hdraw": 20
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 9,
+"uid": "O_DOOR_OPEN",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 16,
+"h": 16
+}
+],
+"packs": [
+{
+"count": 1
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"width": 15,
+"height": 15
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "e5dae57944203b2563bcd6e337e9f22a",
+"wtrim": 16,
+"htrim": 16,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 20,
+"hdraw": 20
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 10,
+"uid": "O_FOUNTAIN",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 16,
+"h": 16
+}
+],
+"packs": [
+{
+"count": 1
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"width": 14,
+"height": 16
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "3d1e13adeb094339739e5d5776d57d9e",
+"wtrim": 14,
+"htrim": 16,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 18,
+"hdraw": 20
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 11,
+"uid": "O_FONTAINE_ACTIVATE",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 14,
+"h": 16
+}
+],
+"packs": [
+{
+"count": 1
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"width": 16,
+"height": 16
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "2f43dc46cf99f2450c36eb3d14bd5b64",
+"wtrim": 16,
+"htrim": 16,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 20,
+"hdraw": 20
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 12,
+"uid": "O_SEWER_OUTLET",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 16,
+"h": 16
+}
+],
+"packs": [
+{
+"count": 1
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"width": 16,
+"height": 14
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "212d1f1eca23d039ee6a3678d57d0794",
+"wtrim": 16,
+"htrim": 14,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 20,
+"hdraw": 18
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 13,
+"uid": "O_CHEST",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 16,
+"h": 14
+}
+],
+"packs": [
+{
+"count": 1
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"width": 16,
+"height": 16
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "070629ffac321813b8056f3fb089029b",
+"wtrim": 16,
+"htrim": 16,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 20,
+"hdraw": 20
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 14,
+"uid": "O_BOX",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 16,
+"h": 16
+}
+],
+"packs": [
+{
+"count": 1
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"width": 16,
+"height": 16
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "d4d233bd0c9f3f4e75ee50e313539b31",
+"wtrim": 16,
+"htrim": 16,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 20,
+"hdraw": 20
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 15,
+"uid": "O_BARREL",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 16,
+"h": 16
+}
+],
+"packs": [
+{
+"count": 1
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"width": 16,
+"height": 16
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "5d91f0a50085dd65c730f7b60208d709",
+"wtrim": 16,
+"htrim": 16,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 20,
+"hdraw": 20
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 16,
+"uid": "O_CHEST_OPEN",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 16,
+"h": 16
+}
+],
+"packs": [
+{
+"count": 1
+}
+]
+}
+}
+],
+"players": [
+{
+"sid": 4,
+"uid": "P_HERO",
+"player": {
+"scrollSmooth": 50,
+"zoomSmooth": 50,
+"pathColor": -1
+}
+}
+],
+"meta": {
+"nextAssetID": 18
+}
+}
