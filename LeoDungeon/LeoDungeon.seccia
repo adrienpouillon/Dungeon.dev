@@ -130,12 +130,14 @@
 "scenario": {
 "board": {
 "nextid": 8,
+"x": 239,
 "boxes": [
 {
 "type": 257,
 "id": 1,
 "name": "start",
-"y": 8,
+"x": -8,
+"y": 120,
 "plugs": [
 {
 "id": 2,
@@ -151,8 +153,8 @@
 "type": 260,
 "id": 3,
 "name": "end",
-"x": 200,
-"y": 8,
+"x": 192,
+"y": 120,
 "plugs": [
 {
 "id": 4,
@@ -164,8 +166,8 @@
 "type": 256,
 "id": 5,
 "name": "#puzzle",
-"x": 96,
-"y": 8,
+"x": 88,
+"y": 120,
 "plugs": [
 {
 "id": 6,
@@ -280,13 +282,63 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 15,
-"nextID": 1,
-"x": -339,
-"y": -114
+"zoom": 10,
+"nextID": 2,
+"x": -131,
+"y": -37
 },
 "sid": 17,
-"uid": "S_COUR_DUNGEON"
+"uid": "S_COUR_DUNGEON",
+"objects": [
+{
+"uid": "O_HERO",
+"depths": [
+{
+"a": 400,
+"b": 100
+},
+{
+"y": 3872,
+"a": 400,
+"b": 100
+}
+],
+"id": 1,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 1159,
+"y": 642,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+}
+]
 }
 ],
 "objects": [
