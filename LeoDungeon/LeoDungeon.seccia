@@ -17,10 +17,11 @@
 "init": "// this script is called when a new game is started or when a previous game is loaded\r\n// you can set here your variables that will be initialized even for old savegames"
 },
 "languages": {
-"english": "1",
+"english": "0",
 "os": "1",
-"native": "English",
-"default": "English"
+"native": "French",
+"default": "French",
+"french": "1"
 },
 "builds": [
 {
@@ -130,14 +131,12 @@
 "scenario": {
 "board": {
 "nextid": 8,
-"x": 239,
 "boxes": [
 {
 "type": 257,
 "id": 1,
 "name": "start",
-"x": -8,
-"y": 120,
+"y": 8,
 "plugs": [
 {
 "id": 2,
@@ -153,8 +152,8 @@
 "type": 260,
 "id": 3,
 "name": "end",
-"x": 192,
-"y": 120,
+"x": 200,
+"y": 8,
 "plugs": [
 {
 "id": 4,
@@ -166,8 +165,8 @@
 "type": 256,
 "id": 5,
 "name": "#puzzle",
-"x": 88,
-"y": 120,
+"x": 96,
+"y": 8,
 "plugs": [
 {
 "id": 6,
@@ -282,27 +281,14 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 10,
-"nextID": 2,
-"x": -131,
-"y": -37
+"zoom": 100,
+"nextID": 3,
+"x": 38,
+"y": 103
 },
-"sid": 17,
-"uid": "S_COUR_DUNGEON",
 "objects": [
 {
-"uid": "O_HERO",
-"depths": [
-{
-"a": 400,
-"b": 100
-},
-{
-"y": 3872,
-"a": 400,
-"b": 100
-}
-],
+"uid": "O_CHEST",
 "id": 1,
 "tags": [
 "",
@@ -310,8 +296,45 @@
 "",
 ""
 ],
-"x": 1159,
-"y": 642,
+"x": 526,
+"y": 659,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"uid": "O_CHESTCLONE",
+"id": 2,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 584,
+"y": 652,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -338,7 +361,9 @@
 {}
 ]
 }
-]
+],
+"sid": 17,
+"uid": "S_COUR_DUNGEON"
 }
 ],
 "objects": [
@@ -346,6 +371,9 @@
 "object": {
 "bbox": true,
 "maxScale": 100,
+"title": {
+"fr": "Léo"
+},
 "width": 14,
 "height": 16
 },
@@ -482,6 +510,9 @@
 "object": {
 "bbox": true,
 "maxScale": -1,
+"title": {
+"fr": "Fantom"
+},
 "width": 16,
 "height": 16
 },
@@ -635,6 +666,9 @@
 "object": {
 "bbox": true,
 "maxScale": -1,
+"title": {
+"fr": "Epée"
+},
 "width": 8,
 "height": 16
 },
@@ -788,6 +822,9 @@
 "object": {
 "bbox": true,
 "maxScale": -1,
+"title": {
+"fr": "Porte fermer"
+},
 "width": 16,
 "height": 16
 },
@@ -941,6 +978,9 @@
 "object": {
 "bbox": true,
 "maxScale": -1,
+"title": {
+"fr": "Herse"
+},
 "width": 16,
 "height": 16
 },
@@ -1056,142 +1096,6 @@
 ],
 "sid": 8,
 "uid": "O_HARROW",
-"packset": {
-"frames": [
-{
-"index2": -1,
-"x": 2,
-"y": 2,
-"w": 16,
-"h": 16
-}
-],
-"packs": [
-{
-"count": 1
-}
-]
-}
-},
-{
-"object": {
-"bbox": true,
-"maxScale": -1,
-"width": 16,
-"height": 16
-},
-"anims": [
-{
-"name": "STOP",
-"fps": 6,
-"action": -1,
-"loopRangeMax": -1,
-"dirs": [
-{
-"name": "LEFT"
-},
-{
-"name": "RIGHT",
-"frames": [
-{
-"md5": "d7c1ee9f5a0ade5ea1729a62bce6bfe2",
-"wtrim": 16,
-"htrim": 16,
-"xdraw": -2,
-"ydraw": -2,
-"wdraw": 20,
-"hdraw": 20
-}
-],
-"count": 1
-},
-{
-"name": "FRONT"
-},
-{
-"name": "BACK"
-},
-{
-"name": "FL"
-},
-{
-"name": "FR"
-},
-{
-"name": "BL"
-},
-{
-"name": "BR"
-}
-]
-},
-{
-"name": "TALK",
-"fps": 6,
-"action": -1,
-"loopRangeMax": -1,
-"dirs": [
-{
-"name": "LEFT"
-},
-{
-"name": "RIGHT"
-},
-{
-"name": "FRONT"
-},
-{
-"name": "BACK"
-},
-{
-"name": "FL"
-},
-{
-"name": "FR"
-},
-{
-"name": "BL"
-},
-{
-"name": "BR"
-}
-]
-},
-{
-"name": "WALK",
-"fps": 6,
-"action": -1,
-"loopRangeMax": -1,
-"dirs": [
-{
-"name": "LEFT"
-},
-{
-"name": "RIGHT"
-},
-{
-"name": "FRONT"
-},
-{
-"name": "BACK"
-},
-{
-"name": "FL"
-},
-{
-"name": "FR"
-},
-{
-"name": "BL"
-},
-{
-"name": "BR"
-}
-]
-}
-],
-"sid": 9,
-"uid": "O_DOOR_OPEN",
 "packset": {
 "frames": [
 {
@@ -1349,6 +1253,9 @@
 "object": {
 "bbox": true,
 "maxScale": -1,
+"title": {
+"fr": "Fontaine"
+},
 "width": 14,
 "height": 16
 },
@@ -1620,9 +1527,12 @@
 {
 "object": {
 "bbox": true,
-"maxScale": -1,
+"maxScale": 100,
+"title": {
+"fr": "Coffre"
+},
 "width": 16,
-"height": 14
+"height": 16
 },
 "anims": [
 {
@@ -1732,6 +1642,50 @@
 "name": "BR"
 }
 ]
+},
+{
+"name": "OPEN",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT",
+"count": 1,
+"frames": [
+{
+"md5": "5d91f0a50085dd65c730f7b60208d709",
+"wtrim": 16,
+"htrim": 16,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 20,
+"hdraw": 20
+}
+]
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
 }
 ],
 "sid": 13,
@@ -1739,16 +1693,25 @@
 "packset": {
 "frames": [
 {
+"index": 1,
 "index2": -1,
 "x": 2,
 "y": 2,
 "w": 16,
-"h": 14
+"h": 16
+},
+{
+"index2": -1,
+"x": 22,
+"y": 2,
+"w": 14,
+"h": 16,
+"rotated": true
 }
 ],
 "packs": [
 {
-"count": 1
+"count": 2
 }
 ]
 }
@@ -1757,6 +1720,9 @@
 "object": {
 "bbox": true,
 "maxScale": -1,
+"title": {
+"fr": "Caisse"
+},
 "width": 16,
 "height": 16
 },
@@ -1893,6 +1859,9 @@
 "object": {
 "bbox": true,
 "maxScale": -1,
+"title": {
+"fr": "Tonneau"
+},
 "width": 16,
 "height": 16
 },
@@ -2027,10 +1996,1573 @@
 },
 {
 "object": {
-"bbox": true,
 "maxScale": -1,
+"title": {
+"fr": "Hache"
+},
 "width": 16,
 "height": 16
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT",
+"frames": [
+{
+"md5": "d492c96dfd1412d22b1d0809e2c90608",
+"xtrim": 4,
+"wtrim": 12,
+"htrim": 16,
+"xdraw": 2,
+"ydraw": -2,
+"wdraw": 16,
+"hdraw": 20
+}
+],
+"count": 1
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "d492c96dfd1412d22b1d0809e2c90608",
+"wtrim": 12,
+"htrim": 16,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 16,
+"hdraw": 20
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"flip": true
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 18,
+"uid": "O_AXE",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 12,
+"h": 16
+},
+{
+"index": 1,
+"flipped": true
+}
+],
+"packs": [
+{
+"count": 2
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"title": {
+"fr": "Hache Double"
+},
+"width": 16,
+"height": 16
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT",
+"frames": [
+{
+"md5": "1ce5af5e665d65ad6c40663170bfe960",
+"wtrim": 16,
+"htrim": 16,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 20,
+"hdraw": 20
+}
+],
+"count": 1
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "1ce5af5e665d65ad6c40663170bfe960",
+"wtrim": 16,
+"htrim": 16,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 20,
+"hdraw": 20
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"flip": true
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 19,
+"uid": "O_DOUBLE_AXE",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 16,
+"h": 16
+},
+{
+"index": 1,
+"flipped": true
+}
+],
+"packs": [
+{
+"count": 2
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"title": {
+"fr": "Lance"
+},
+"width": 16,
+"height": 15
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT",
+"frames": [
+{
+"md5": "56b91c0400b524038999b28a3e48cea3",
+"xtrim": 2,
+"ytrim": 2,
+"wtrim": 12,
+"htrim": 12,
+"wdraw": 16,
+"hdraw": 16
+}
+],
+"count": 1
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "56b91c0400b524038999b28a3e48cea3",
+"xtrim": 2,
+"ytrim": 2,
+"wtrim": 12,
+"htrim": 12,
+"wdraw": 16,
+"hdraw": 16
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"flip": true
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 20,
+"uid": "O_SPEAR",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 12,
+"h": 12
+},
+{
+"index": 1,
+"flipped": true
+}
+],
+"packs": [
+{
+"count": 2
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"title": {
+"fr": "Marteau"
+},
+"width": 16,
+"height": 16
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT",
+"frames": [
+{
+"md5": "9dd7fc2d400bdbf0b3504f74de24a8c3",
+"xtrim": 2,
+"wtrim": 12,
+"htrim": 16,
+"ydraw": -2,
+"wdraw": 16,
+"hdraw": 20
+}
+],
+"count": 1
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "9dd7fc2d400bdbf0b3504f74de24a8c3",
+"xtrim": 2,
+"wtrim": 12,
+"htrim": 16,
+"ydraw": -2,
+"wdraw": 16,
+"hdraw": 20
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"flip": true
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 21,
+"uid": "O_HAMMER",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 12,
+"h": 16
+},
+{
+"index": 1,
+"flipped": true
+}
+],
+"packs": [
+{
+"count": 2
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"title": {
+"fr": "Potion"
+},
+"width": 16,
+"height": 16
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT",
+"frames": [
+{
+"md5": "9a9f07214a937d6d583f865aee5b9405",
+"xtrim": 2,
+"ytrim": 2,
+"wtrim": 12,
+"htrim": 14,
+"wdraw": 16,
+"hdraw": 18
+}
+],
+"count": 1
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "9a9f07214a937d6d583f865aee5b9405",
+"xtrim": 2,
+"ytrim": 2,
+"wtrim": 12,
+"htrim": 14,
+"wdraw": 16,
+"hdraw": 18
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"flip": true
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 22,
+"uid": "O_POTION_BLUE",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 12,
+"h": 14
+},
+{
+"index": 1,
+"flipped": true
+}
+],
+"packs": [
+{
+"count": 2
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"title": {
+"fr": "Sceptre"
+},
+"width": 16,
+"height": 16
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT",
+"frames": [
+{
+"md5": "a7e9517d5ba946584fc70a8129898b61",
+"xtrim": 4,
+"wtrim": 8,
+"htrim": 16,
+"xdraw": 2,
+"ydraw": -2,
+"wdraw": 12,
+"hdraw": 20
+}
+],
+"count": 1
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "a7e9517d5ba946584fc70a8129898b61",
+"xtrim": 4,
+"wtrim": 8,
+"htrim": 16,
+"xdraw": 2,
+"ydraw": -2,
+"wdraw": 12,
+"hdraw": 20
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"flip": true
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 23,
+"uid": "O_SCEPTRE",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 8,
+"h": 16
+},
+{
+"index": 1,
+"flipped": true
+}
+],
+"packs": [
+{
+"count": 2
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"title": {
+"fr": "Bouclier"
+},
+"width": 16,
+"height": 16
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT",
+"frames": [
+{
+"md5": "4e81e8766df38ba40c4ab3984c6d668b",
+"xtrim": 4,
+"wtrim": 8,
+"htrim": 16,
+"xdraw": 2,
+"ydraw": -2,
+"wdraw": 12,
+"hdraw": 20
+}
+],
+"count": 1
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "4e81e8766df38ba40c4ab3984c6d668b",
+"xtrim": 4,
+"wtrim": 8,
+"htrim": 16,
+"xdraw": 2,
+"ydraw": -2,
+"wdraw": 12,
+"hdraw": 20
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"flip": true
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 24,
+"uid": "O_SHEILD",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 8,
+"h": 16
+},
+{
+"index": 1,
+"flipped": true
+}
+],
+"packs": [
+{
+"count": 2
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"title": {
+"fr": "Potion"
+},
+"width": 16,
+"height": 16
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT",
+"frames": [
+{
+"md5": "6cf9786382206b15971577092fe43453",
+"xtrim": 2,
+"ytrim": 2,
+"wtrim": 12,
+"htrim": 14,
+"wdraw": 16,
+"hdraw": 18
+}
+],
+"count": 1
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "6cf9786382206b15971577092fe43453",
+"xtrim": 2,
+"ytrim": 2,
+"wtrim": 12,
+"htrim": 14,
+"wdraw": 16,
+"hdraw": 18
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"flip": true
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 25,
+"uid": "O_POTION_RED",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 12,
+"h": 14
+},
+{
+"index": 1,
+"flipped": true
+}
+],
+"packs": [
+{
+"count": 2
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"title": {
+"fr": "Potion"
+},
+"width": 16,
+"height": 16
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT",
+"frames": [
+{
+"md5": "ec4c37f757ce28df81c62443055d2d05",
+"xtrim": 2,
+"ytrim": 2,
+"wtrim": 12,
+"htrim": 14,
+"wdraw": 16,
+"hdraw": 18
+}
+],
+"count": 1
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "ec4c37f757ce28df81c62443055d2d05",
+"xtrim": 2,
+"ytrim": 2,
+"wtrim": 12,
+"htrim": 14,
+"wdraw": 16,
+"hdraw": 18
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"flip": true
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 26,
+"uid": "O_POTION_GREEN",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 12,
+"h": 14
+},
+{
+"index": 1,
+"flipped": true
+}
+],
+"packs": [
+{
+"count": 2
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"title": {
+"fr": "Potion"
+},
+"width": 16,
+"height": 16
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT",
+"frames": [
+{
+"md5": "f68b64ba2f10836271e9964eca9d96f2",
+"xtrim": 2,
+"ytrim": 2,
+"wtrim": 12,
+"htrim": 14,
+"wdraw": 16,
+"hdraw": 18
+}
+],
+"count": 1
+},
+{
+"name": "RIGHT",
+"frames": [
+{
+"md5": "f68b64ba2f10836271e9964eca9d96f2",
+"xtrim": 2,
+"ytrim": 2,
+"wtrim": 12,
+"htrim": 14,
+"wdraw": 16,
+"hdraw": 18
+}
+],
+"count": 1
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"flip": true
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 27,
+"uid": "O_POTION_GREY",
+"packset": {
+"frames": [
+{
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 12,
+"h": 14
+},
+{
+"index": 1,
+"flipped": true
+}
+],
+"packs": [
+{
+"count": 2
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"clone": "O_CHEST"
 },
 "anims": [
 {
@@ -2043,19 +3575,7 @@
 "name": "LEFT"
 },
 {
-"name": "RIGHT",
-"frames": [
-{
-"md5": "5d91f0a50085dd65c730f7b60208d709",
-"wtrim": 16,
-"htrim": 16,
-"xdraw": -2,
-"ydraw": -2,
-"wdraw": 20,
-"hdraw": 20
-}
-],
-"count": 1
+"name": "RIGHT"
 },
 {
 "name": "FRONT"
@@ -2142,24 +3662,1598 @@
 ]
 }
 ],
-"sid": 16,
-"uid": "O_CHEST_OPEN",
-"packset": {
-"frames": [
+"sid": 28,
+"uid": "O_CHESTCLONE"
+},
 {
-"index2": -1,
-"x": 2,
-"y": 2,
-"w": 16,
-"h": 16
+"object": {
+"bbox": true,
+"maxScale": -1
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
 }
-],
-"packs": [
+]
+},
 {
-"count": 1
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
 }
 ]
 }
+],
+"sid": 29,
+"uid": "O_ZOMBIE"
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 30,
+"uid": "O_MAGE"
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 31,
+"uid": "O_MAGE_CURSE"
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 32,
+"uid": "O_PRINCESSE"
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 33,
+"uid": "O_PRINCESSE_CURSE"
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 34,
+"uid": "O_RAT"
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 35,
+"uid": "O_RAT_CURSE"
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 36,
+"uid": "O_GUARD"
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 37,
+"uid": "O_GUARD_CURSE"
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 38,
+"uid": "O_VILLAGER"
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 39,
+"uid": "O_LOBSTER"
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 40,
+"uid": "O_SPECTRUM"
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 41,
+"uid": "O_SPIDER"
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 42,
+"uid": "O_BAT"
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"sid": 43,
+"uid": "O_CYCLOPS"
 }
 ],
 "players": [
@@ -2174,6 +5268,6 @@
 }
 ],
 "meta": {
-"nextAssetID": 18
+"nextAssetID": 44
 }
 }
