@@ -1373,9 +1373,9 @@
 "uid": "R_VILLAGE_TOWN",
 "graph": {
 "board": {
-"nextid": 1378,
-"x": 89,
-"y": -568,
+"nextid": 1432,
+"x": 237,
+"y": 356,
 "boxes": [
 {
 "type": 257,
@@ -3401,9 +3401,9 @@
 "uid": "R_YARD_DUNGEON",
 "graph": {
 "board": {
-"nextid": 10933,
-"x": 291,
-"y": 1016,
+"nextid": 11203,
+"x": 325,
+"y": 1087,
 "boxes": [
 {
 "type": 1283,
@@ -8576,27 +8576,30 @@
 "uid": "R_CAMPAIGN",
 "graph": {
 "board": {
-"nextid": 651,
-"x": 199,
-"y": -275,
+"nextid": 788,
+"x": 78,
+"y": 1,
 "boxes": [
 {
 "type": 257,
 "id": 1,
-"x": 98,
-"y": 426,
+"x": 91,
+"y": 320,
 "plugs": [
 {
 "id": 2,
-"type": 3
+"type": 3,
+"trgs": [
+708
+]
 }
 ]
 },
 {
 "type": 1281,
 "id": 3,
-"x": 114,
-"y": 46,
+"x": 112,
+"y": -53,
 "plugs": [
 {
 "id": 4,
@@ -8615,8 +8618,8 @@
 {
 "type": 783,
 "id": 5,
-"x": 290,
-"y": 46,
+"x": 288,
+"y": -53,
 "plugs": [
 {
 "id": 6,
@@ -8639,8 +8642,8 @@
 {
 "type": 1287,
 "id": 8,
-"x": 111,
-"y": 193,
+"x": 109,
+"y": 94,
 "plugs": [
 {
 "id": 9,
@@ -8657,8 +8660,8 @@
 {
 "type": 788,
 "id": 10,
-"x": 298,
-"y": 194,
+"x": 296,
+"y": 95,
 "plugs": [
 {
 "id": 11,
@@ -8679,8 +8682,8 @@
 {
 "type": 781,
 "id": 34,
-"x": 489,
-"y": 194,
+"x": 487,
+"y": 95,
 "plugs": [
 {
 "id": 35,
@@ -8697,8 +8700,8 @@
 {
 "type": 1290,
 "id": 37,
-"x": 109,
-"y": 307,
+"x": 107,
+"y": 208,
 "plugs": [
 {
 "id": 38,
@@ -8715,8 +8718,8 @@
 {
 "type": 781,
 "id": 42,
-"x": 469,
-"y": 308,
+"x": 467,
+"y": 209,
 "plugs": [
 {
 "id": 43,
@@ -8736,8 +8739,8 @@
 {
 "type": 780,
 "id": 45,
-"x": 639,
-"y": 309,
+"x": 637,
+"y": 210,
 "plugs": [
 {
 "id": 46,
@@ -8757,8 +8760,8 @@
 "type": 513,
 "id": 48,
 "comment": "DUMP",
-"x": 770,
-"y": 309,
+"x": 768,
+"y": 210,
 "plugs": [
 {
 "id": 49,
@@ -8778,8 +8781,8 @@
 {
 "type": 786,
 "id": 60,
-"x": 876,
-"y": 309,
+"x": 874,
+"y": 210,
 "plugs": [
 {
 "id": 61,
@@ -8848,8 +8851,8 @@
 "resize": true,
 "width": 966,
 "height": 377,
-"x": 86,
-"y": 14,
+"x": 84,
+"y": -85,
 "name": "Dig Grasse"
 },
 {
@@ -9098,48 +9101,10 @@
 "durationIn": "0"
 },
 {
-"type": 1284,
-"id": 530,
-"x": 87,
-"y": 489,
-"plugs": [
-{
-"id": 531,
-"type": 3,
-"trgs": [
-533
-]
-}
-],
-"resolved": "#Have_Sporty_Clother",
-"varCmp": "==",
-"scene": "S_GRAVEYARD",
-"mode": "JUMP"
-},
-{
-"type": 513,
-"id": 532,
-"comment": "Change Clother",
-"x": 284,
-"y": 490,
-"plugs": [
-{
-"id": 533,
-"type": 2
-},
-{
-"id": 534,
-"type": 3
-}
-],
-"script": "set_default_anims O_HERO SPORTY",
-"plugCount": 1
-},
-{
 "type": 783,
 "id": 580,
-"x": 294,
-"y": 307,
+"x": 292,
+"y": 208,
 "plugs": [
 {
 "id": 581,
@@ -9261,6 +9226,110 @@
 }
 ],
 "puzzle": "#Have_Sporty_Clother"
+},
+{
+"type": 1031,
+"id": 707,
+"x": 180,
+"y": 321,
+"plugs": [
+{
+"id": 708,
+"type": 2
+},
+{
+"id": 709,
+"type": 3,
+"trgs": [
+717
+]
+},
+{
+"id": 710,
+"type": 3
+},
+{
+"id": 711,
+"type": 3,
+"trgs": [
+714
+]
+},
+{
+"id": 712,
+"type": 3
+}
+],
+"puzzle": "#Dig_grasse"
+},
+{
+"type": 781,
+"id": 713,
+"x": 313,
+"y": 454,
+"plugs": [
+{
+"id": 714,
+"type": 2
+},
+{
+"id": 715,
+"type": 3
+}
+],
+"dialog": "D_CAMPAIGN",
+"sentence": "4"
+},
+{
+"type": 1031,
+"id": 716,
+"x": 312,
+"y": 322,
+"plugs": [
+{
+"id": 717,
+"type": 2
+},
+{
+"id": 718,
+"type": 3,
+"trgs": [
+723
+]
+},
+{
+"id": 719,
+"type": 3
+},
+{
+"id": 720,
+"type": 3
+},
+{
+"id": 721,
+"type": 3
+}
+],
+"puzzle": "#Have_Sporty_Clother"
+},
+{
+"type": 513,
+"id": 722,
+"comment": "Change Clother",
+"x": 499,
+"y": 322,
+"plugs": [
+{
+"id": 723,
+"type": 2
+},
+{
+"id": 724,
+"type": 3
+}
+],
+"script": "set_default_anims O_HERO SPORTY",
+"plugCount": 1
 }
 ]
 }
@@ -9271,9 +9340,9 @@
 "uid": "R_ENTRANCE",
 "graph": {
 "board": {
-"nextid": 2645,
-"x": 184,
-"y": -1073,
+"nextid": 2798,
+"x": 224,
+"y": 786,
 "boxes": [
 {
 "type": 1287,
@@ -10278,7 +10347,7 @@
 ],
 "resolved": "#Have_Clother_Armored",
 "varCmp": "==",
-"scene": "S_GRAVEYARD",
+"scene": "S_ENTRANCE",
 "mode": "JUMP"
 },
 {
@@ -10316,7 +10385,7 @@
 ],
 "resolved": "#Have_Clother_Armed",
 "varCmp": "==",
-"scene": "S_GRAVEYARD",
+"scene": "S_ENTRANCE",
 "mode": "JUMP"
 },
 {
@@ -10851,9 +10920,9 @@
 "uid": "R_GRAVEYARD",
 "graph": {
 "board": {
-"nextid": 2247,
-"x": 29,
-"y": 306,
+"nextid": 2373,
+"x": 26,
+"y": 172,
 "boxes": [
 {
 "type": 257,
@@ -12809,9 +12878,9 @@
 "uid": "R_CHAMBER",
 "graph": {
 "board": {
-"nextid": 1017,
-"x": -258,
-"y": -302,
+"nextid": 1071,
+"x": -121,
+"y": 162,
 "boxes": [
 {
 "type": 513,
@@ -13611,9 +13680,9 @@
 "uid": "R_TOWER",
 "graph": {
 "board": {
-"nextid": 264,
-"x": -35,
-"y": -230,
+"nextid": 309,
+"x": 13,
+"y": 43,
 "boxes": [
 {
 "type": 513,
@@ -13930,9 +13999,9 @@
 "uid": "R_TREASURE",
 "graph": {
 "board": {
-"nextid": 338,
-"x": 105,
-"y": 4,
+"nextid": 383,
+"x": 116,
+"y": -58,
 "boxes": [
 {
 "type": 1287,
@@ -254727,10 +254796,17 @@
 "fr": "Oh, vous allez ou comme ca vous n'êtes pas digne d'allez dans le village sans être mieux habillé"
 },
 "speaker": "O_GUARD2_CAMPAIGN"
+},
+{
+"id": 4,
+"text": {
+"fr": "Rrrrrrrr\r\nPlus rien ne vas !\r\nMa maison tombe en ruine, je n'ai plus de quoi manger, et les route ne sont même plus entretenue."
+},
+"speaker": "O_HERO"
 }
 ]
 },
-"nextID": 4
+"nextID": 5
 }
 },
 {
