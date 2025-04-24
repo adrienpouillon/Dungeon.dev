@@ -137,7 +137,7 @@
 "scenario": {
 "board": {
 "nextid": 194,
-"x": -4869,
+"x": 707,
 "boxes": [
 {
 "type": 257,
@@ -154,8 +154,7 @@
 ]
 }
 ],
-"exit": "// Assign an object to the player\r\ncontrol P_HERO O_HERO\r\n// Change the current player\r\nswitch P_HERO\r\n// Change the current scene\r\njump S_CAMPAIGN",
-"resolved": true
+"exit": "// Assign an object to the player\r\ncontrol P_HERO O_HERO\r\n// Change the current player\r\nswitch P_HERO\r\n// Change the current scene\r\njump S_CAMPAIGN"
 },
 {
 "type": 260,
@@ -188,8 +187,7 @@
 18
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 258,
@@ -209,8 +207,7 @@
 9
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 262,
@@ -230,8 +227,7 @@
 21
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -251,8 +247,7 @@
 15
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -273,8 +268,7 @@
 ]
 }
 ],
-"exit": "jump S_VILLAGE_TOWN",
-"resolved": true
+"exit": "jump S_VILLAGE_TOWN"
 },
 {
 "type": 258,
@@ -297,8 +291,7 @@
 57
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 262,
@@ -318,8 +311,7 @@
 42
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -339,8 +331,7 @@
 36
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -360,8 +351,7 @@
 36
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -381,8 +371,7 @@
 39
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -402,8 +391,7 @@
 27
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -424,8 +412,7 @@
 ]
 }
 ],
-"exit": "jump S_ENTRANCE\r\nsilent_take P_HERO O_KNIFE_TOWN",
-"resolved": true
+"exit": "jump S_ENTRANCE\r\nsilent_take P_HERO O_KNIFE_TOWN"
 },
 {
 "type": 256,
@@ -445,8 +432,7 @@
 54
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -466,8 +452,7 @@
 39
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -487,8 +472,7 @@
 36
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 258,
@@ -508,8 +492,7 @@
 66
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 262,
@@ -549,8 +532,7 @@
 78
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 262,
@@ -570,8 +552,7 @@
 102
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 258,
@@ -591,8 +572,7 @@
 93
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 262,
@@ -612,8 +592,7 @@
 132
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -633,8 +612,7 @@
 81
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -654,8 +632,7 @@
 84
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -675,8 +652,7 @@
 69
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -696,8 +672,7 @@
 99
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -718,8 +693,7 @@
 90
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -740,8 +714,7 @@
 111
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -761,8 +734,7 @@
 105
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -783,8 +755,7 @@
 ]
 }
 ],
-"exit": "jump S_YARD_DUNGEON\r\ndump O_KNIFE_TOWN",
-"resolved": true
+"exit": "jump S_YARD_DUNGEON\r\ndump O_KNIFE_TOWN"
 },
 {
 "type": 256,
@@ -804,8 +775,7 @@
 117
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -845,8 +815,7 @@
 114
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -866,8 +835,7 @@
 117
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -887,8 +855,7 @@
 135
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -908,8 +875,7 @@
 75
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -929,8 +895,7 @@
 147
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 258,
@@ -950,8 +915,7 @@
 138
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 262,
@@ -971,8 +935,7 @@
 162
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -992,8 +955,7 @@
 126
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1013,8 +975,7 @@
 120
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1034,8 +995,7 @@
 141
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1055,8 +1015,7 @@
 144
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1076,8 +1035,7 @@
 123
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1097,8 +1055,7 @@
 129
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1179,8 +1136,7 @@
 165
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1201,8 +1157,7 @@
 ]
 }
 ],
-"exit": "jump S_CHAMBER\r\nhide S_YARD_DUNGEON.O_DOOR_YARD",
-"resolved": true
+"exit": "jump S_CHAMBER\r\nhide S_YARD_DUNGEON.O_DOOR_YARD"
 },
 {
 "type": 256,
@@ -12878,9 +12833,9 @@
 "uid": "R_CHAMBER",
 "graph": {
 "board": {
-"nextid": 1071,
-"x": -121,
-"y": 162,
+"nextid": 1125,
+"x": -120,
+"y": 164,
 "boxes": [
 {
 "type": 513,
@@ -14437,8 +14392,8 @@
 },
 "zoom": 15,
 "nextID": 57,
-"x": -190,
-"y": -226,
+"x": -61,
+"y": -217,
 "role": "R_YARD_DUNGEON"
 },
 "objects": [
@@ -14463,8 +14418,8 @@
 ""
 ],
 "visible": 1,
-"x": 944,
-"y": 285,
+"x": 4031,
+"y": 1392,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -121043,10 +120998,10 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 20,
+"zoom": 15,
 "nextID": 18,
-"x": -189,
-"y": -2,
+"x": 19,
+"y": -13,
 "role": "R_ENTRANCE"
 },
 "sid": 103,
