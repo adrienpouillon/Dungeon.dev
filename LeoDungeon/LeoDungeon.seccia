@@ -3356,9 +3356,9 @@
 "uid": "R_YARD_DUNGEON",
 "graph": {
 "board": {
-"nextid": 11203,
-"x": 325,
-"y": 1087,
+"nextid": 11473,
+"x": 265,
+"y": 1145,
 "boxes": [
 {
 "type": 1283,
@@ -8452,7 +8452,7 @@
 {
 "type": 1031,
 "id": 10903,
-"x": 167,
+"x": 185,
 "y": -835,
 "plugs": [
 {
@@ -8488,7 +8488,7 @@
 "type": 513,
 "id": 10909,
 "comment": "Change Clother",
-"x": 353,
+"x": 371,
 "y": -754,
 "plugs": [
 {
@@ -8507,7 +8507,7 @@
 "type": 513,
 "id": 10921,
 "comment": "Change Clother",
-"x": 348,
+"x": 366,
 "y": -876,
 "plugs": [
 {
@@ -8531,25 +8531,9 @@
 "uid": "R_CAMPAIGN",
 "graph": {
 "board": {
-"nextid": 788,
-"x": 78,
-"y": 1,
+"nextid": 906,
+"y": -79,
 "boxes": [
-{
-"type": 257,
-"id": 1,
-"x": 91,
-"y": 320,
-"plugs": [
-{
-"id": 2,
-"type": 3,
-"trgs": [
-708
-]
-}
-]
-},
 {
 "type": 1281,
 "id": 3,
@@ -9185,8 +9169,8 @@
 {
 "type": 1031,
 "id": 707,
-"x": 180,
-"y": 321,
+"x": 219,
+"y": 322,
 "plugs": [
 {
 "id": 708,
@@ -9207,7 +9191,7 @@
 "id": 711,
 "type": 3,
 "trgs": [
-714
+904
 ]
 },
 {
@@ -9218,28 +9202,10 @@
 "puzzle": "#Dig_grasse"
 },
 {
-"type": 781,
-"id": 713,
-"x": 313,
-"y": 454,
-"plugs": [
-{
-"id": 714,
-"type": 2
-},
-{
-"id": 715,
-"type": 3
-}
-],
-"dialog": "D_CAMPAIGN",
-"sentence": "4"
-},
-{
 "type": 1031,
 "id": 716,
-"x": 312,
-"y": 322,
+"x": 351,
+"y": 323,
 "plugs": [
 {
 "id": 717,
@@ -9271,8 +9237,8 @@
 "type": 513,
 "id": 722,
 "comment": "Change Clother",
-"x": 499,
-"y": 322,
+"x": 538,
+"y": 323,
 "plugs": [
 {
 "id": 723,
@@ -9285,6 +9251,59 @@
 ],
 "script": "set_default_anims O_HERO SPORTY",
 "plugCount": 1
+},
+{
+"type": 257,
+"id": 898,
+"x": 105,
+"y": 321,
+"plugs": [
+{
+"id": 899,
+"type": 3,
+"trgs": [
+708
+]
+}
+]
+},
+{
+"type": 781,
+"id": 900,
+"x": 461,
+"y": 455,
+"plugs": [
+{
+"id": 901,
+"type": 2
+},
+{
+"id": 902,
+"type": 3
+}
+],
+"dialog": "D_CAMPAIGN",
+"sentence": "4"
+},
+{
+"type": 771,
+"id": 903,
+"x": 354,
+"y": 456,
+"plugs": [
+{
+"id": 904,
+"type": 2
+},
+{
+"id": 905,
+"type": 3,
+"trgs": [
+901
+]
+}
+],
+"duration": "1000"
 }
 ]
 }
@@ -112692,10 +112711,10 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 20,
+"zoom": 65,
 "nextID": 15,
-"x": -58,
-"y": -69,
+"x": 597,
+"y": 723,
 "role": "R_CAMPAIGN"
 },
 "objects": [
@@ -254755,7 +254774,7 @@
 {
 "id": 4,
 "text": {
-"fr": "Rrrrrrrr\r\nPlus rien ne vas !\r\nMa maison tombe en ruine, je n'ai plus de quoi manger, et les route ne sont même plus entretenue."
+"fr": "Rrrrrrrr\r\nPlus rien ne vas !\r\nMa maison tombe en ruine, je n'ai plus de quoi manger, et les routes ne sont même plus entretenue.\r\nIl faut que je trouve de l'argent.\r\nIl faut que j'aille au village, pour trouver de l'argent."
 },
 "speaker": "O_HERO"
 }
