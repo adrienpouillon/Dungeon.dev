@@ -1,2 +1,8 @@
 New Game
 success ok #176
+success ok #230
+success ok #248
+success ok #233
+success ok #236
+success ok #203
+success ok #221
