@@ -136,8 +136,8 @@
 },
 "scenario": {
 "board": {
-"nextid": 269,
-"x": -8127,
+"nextid": 272,
+"x": -8024,
 "boxes": [
 {
 "type": 257,
@@ -1688,7 +1688,10 @@
 },
 {
 "id": 241,
-"type": 3
+"type": 3,
+"trgs": [
+243
+]
 }
 ]
 },
@@ -1707,7 +1710,7 @@
 "id": 244,
 "type": 3,
 "trgs": [
-264
+270
 ]
 }
 ]
@@ -1837,7 +1840,7 @@
 "type": 256,
 "id": 263,
 "name": "#Hit_Curse_Princesse",
-"x": 9576,
+"x": 9656,
 "y": 344,
 "plugs": [
 {
@@ -1869,6 +1872,26 @@
 "type": 3,
 "trgs": [
 255
+]
+}
+]
+},
+{
+"type": 256,
+"id": 269,
+"name": "#Dig_Curse_Yard",
+"x": 9496,
+"y": 344,
+"plugs": [
+{
+"id": 270,
+"type": 2
+},
+{
+"id": 271,
+"type": 3,
+"trgs": [
+264
 ]
 }
 ]
@@ -15411,9 +15434,9 @@
 "uid": "R_CURSE_YARD_DUNGEON",
 "graph": {
 "board": {
-"nextid": 1779,
-"x": 508,
-"y": -998,
+"nextid": 2091,
+"x": 99,
+"y": -3341,
 "boxes": [
 {
 "type": 257,
@@ -16039,20 +16062,20 @@
 "type": 256,
 "id": 227,
 "resize": true,
-"width": 100,
-"height": 100,
-"x": 7,
-"y": 4300,
+"width": 1258,
+"height": 430,
+"x": -11,
+"y": 3607,
 "name": "Spider"
 },
 {
 "type": 256,
 "id": 228,
 "resize": true,
-"width": 100,
-"height": 100,
-"x": 169,
-"y": 4299,
+"width": 1254,
+"height": 457,
+"x": 297,
+"y": 4680,
 "name": "Anvil"
 },
 {
@@ -16061,8 +16084,8 @@
 "resize": true,
 "width": 100,
 "height": 100,
-"x": 327,
-"y": 4300,
+"x": 181,
+"y": 4683,
 "name": "Rat Maudit"
 },
 {
@@ -17234,8 +17257,8 @@
 "type": 256,
 "id": 1358,
 "resize": true,
-"width": 1260,
-"height": 477,
+"width": 1266,
+"height": 457,
 "x": -14,
 "y": 3105,
 "name": "Rat2"
@@ -17719,6 +17742,464 @@
 }
 ],
 "puzzle": "#Hit_Curse_Mage"
+},
+{
+"type": 1281,
+"id": 1887,
+"x": 7,
+"y": 3633,
+"plugs": [
+{
+"id": 1888,
+"type": 3,
+"trgs": [
+1890
+]
+}
+],
+"unresolved": "#Kill_Spider_Curse_Yard",
+"varCmp": "==",
+"scene": "S_CURSE_YARD_DUNGEON",
+"obj": "O_HERO",
+"cell": "SPIDER"
+},
+{
+"type": 783,
+"id": 1889,
+"x": 235,
+"y": 3633,
+"plugs": [
+{
+"id": 1890,
+"type": 2
+},
+{
+"id": 1891,
+"type": 3,
+"trgs": [
+1893
+]
+}
+],
+"lock": true,
+"scene": "S_CURSE_YARD_DUNGEON",
+"obj": "O_HERO",
+"cell": "SPIDER_DIS",
+"straight": "False",
+"duration": "0",
+"easeIn": "True",
+"easeOut": "True"
+},
+{
+"type": 781,
+"id": 1892,
+"x": 467,
+"y": 3633,
+"plugs": [
+{
+"id": 1893,
+"type": 2
+},
+{
+"id": 1894,
+"type": 3
+}
+],
+"dialog": "D_CURSE_YARD",
+"sentence": "18"
+},
+{
+"type": 1287,
+"id": 1895,
+"x": 8,
+"y": 3779,
+"plugs": [
+{
+"id": 1896,
+"type": 3,
+"trgs": [
+1898
+]
+}
+],
+"varCmp": "==",
+"scene": "S_CURSE_YARD_DUNGEON",
+"obj": "O_SPIDER_CURSE_YARD"
+},
+{
+"type": 781,
+"id": 1897,
+"x": 236,
+"y": 3782,
+"plugs": [
+{
+"id": 1898,
+"type": 2
+},
+{
+"id": 1899,
+"type": 3
+}
+],
+"dialog": "D_CURSE_YARD",
+"sentence": "17"
+},
+{
+"type": 1290,
+"id": 1900,
+"x": 2,
+"y": 3893,
+"plugs": [
+{
+"id": 1901,
+"type": 3,
+"trgs": [
+1903
+]
+}
+],
+"varCmp": "==",
+"obj": "O_SPEAR_CURSE_GRAVEYARD",
+"obj2": "O_SPIDER_CURSE_YARD"
+},
+{
+"type": 783,
+"id": 1902,
+"x": 222,
+"y": 3894,
+"plugs": [
+{
+"id": 1903,
+"type": 2
+},
+{
+"id": 1904,
+"type": 3,
+"trgs": [
+1906
+]
+}
+],
+"lock": true,
+"scene": "S_CURSE_YARD_DUNGEON",
+"obj": "O_HERO",
+"cell": "SPIDER_TALK",
+"straight": "False",
+"duration": "0",
+"easeIn": "True",
+"easeOut": "True"
+},
+{
+"type": 786,
+"id": 1905,
+"x": 426,
+"y": 3895,
+"plugs": [
+{
+"id": 1906,
+"type": 2
+},
+{
+"id": 1907,
+"type": 3,
+"trgs": [
+1909
+]
+}
+],
+"visible": "False",
+"duration": "0",
+"scene": "S_CURSE_YARD_DUNGEON",
+"obj": "O_SPIDER_CURSE_YARD"
+},
+{
+"type": 781,
+"id": 1908,
+"x": 637,
+"y": 3896,
+"plugs": [
+{
+"id": 1909,
+"type": 2
+},
+{
+"id": 1910,
+"type": 3,
+"trgs": [
+1912
+]
+}
+],
+"dialog": "D_HERO_OBJECT",
+"sentence": "14"
+},
+{
+"type": 513,
+"id": 1911,
+"comment": "DUMP",
+"x": 791,
+"y": 3896,
+"plugs": [
+{
+"id": 1912,
+"type": 2
+},
+{
+"id": 1913,
+"type": 3,
+"trgs": [
+1915
+]
+}
+],
+"script": "dump O_SPEAR_CURSE_GRAVEYARD",
+"plugCount": 1
+},
+{
+"type": 780,
+"id": 1914,
+"x": 897,
+"y": 3896,
+"plugs": [
+{
+"id": 1915,
+"type": 2
+},
+{
+"id": 1916,
+"type": 3
+}
+],
+"puzzle": "#Kill_Spider_Curse_Yard"
+},
+{
+"type": 1281,
+"id": 1926,
+"x": 324,
+"y": 4729,
+"plugs": [
+{
+"id": 1927,
+"type": 3,
+"trgs": [
+1929
+]
+}
+],
+"unresolved": "#Kill_Spider_Curse_Yard",
+"varCmp": "==",
+"scene": "S_CURSE_YARD_DUNGEON",
+"obj": "O_HERO",
+"cell": "SPIDER"
+},
+{
+"type": 783,
+"id": 1928,
+"x": 552,
+"y": 4729,
+"plugs": [
+{
+"id": 1929,
+"type": 2
+},
+{
+"id": 1930,
+"type": 3,
+"trgs": [
+1932
+]
+}
+],
+"lock": true,
+"scene": "S_CURSE_YARD_DUNGEON",
+"obj": "O_HERO",
+"cell": "SPIDER_DIS",
+"straight": "False",
+"duration": "0",
+"easeIn": "True",
+"easeOut": "True"
+},
+{
+"type": 781,
+"id": 1931,
+"x": 784,
+"y": 4729,
+"plugs": [
+{
+"id": 1932,
+"type": 2
+},
+{
+"id": 1933,
+"type": 3
+}
+],
+"dialog": "D_CURSE_YARD",
+"sentence": "11"
+},
+{
+"type": 1287,
+"id": 1934,
+"x": 325,
+"y": 4875,
+"plugs": [
+{
+"id": 1935,
+"type": 3,
+"trgs": [
+1937
+]
+}
+],
+"varCmp": "==",
+"scene": "S_CURSE_YARD_DUNGEON",
+"obj": "O_SPIDER_CURSE_YARD"
+},
+{
+"type": 781,
+"id": 1936,
+"x": 553,
+"y": 4878,
+"plugs": [
+{
+"id": 1937,
+"type": 2
+},
+{
+"id": 1938,
+"type": 3
+}
+],
+"dialog": "D_CURSE_YARD",
+"sentence": "10"
+},
+{
+"type": 1290,
+"id": 1939,
+"x": 319,
+"y": 4989,
+"plugs": [
+{
+"id": 1940,
+"type": 3,
+"trgs": [
+1942
+]
+}
+],
+"varCmp": "==",
+"obj": "O_SPEAR_CURSE_GRAVEYARD",
+"obj2": "O_SPIDER_CURSE_YARD"
+},
+{
+"type": 783,
+"id": 1941,
+"x": 539,
+"y": 4990,
+"plugs": [
+{
+"id": 1942,
+"type": 2
+},
+{
+"id": 1943,
+"type": 3,
+"trgs": [
+1945
+]
+}
+],
+"lock": true,
+"scene": "S_CURSE_YARD_DUNGEON",
+"obj": "O_HERO",
+"cell": "SPIDER_TALK",
+"straight": "False",
+"duration": "0",
+"easeIn": "True",
+"easeOut": "True"
+},
+{
+"type": 786,
+"id": 1944,
+"x": 743,
+"y": 4991,
+"plugs": [
+{
+"id": 1945,
+"type": 2
+},
+{
+"id": 1946,
+"type": 3,
+"trgs": [
+1948
+]
+}
+],
+"visible": "False",
+"duration": "0",
+"scene": "S_CURSE_YARD_DUNGEON",
+"obj": "O_SPIDER_CURSE_YARD"
+},
+{
+"type": 781,
+"id": 1947,
+"x": 954,
+"y": 4992,
+"plugs": [
+{
+"id": 1948,
+"type": 2
+},
+{
+"id": 1949,
+"type": 3,
+"trgs": [
+1951
+]
+}
+],
+"dialog": "D_HERO_OBJECT",
+"sentence": "22"
+},
+{
+"type": 513,
+"id": 1950,
+"comment": "DUMP",
+"x": 1108,
+"y": 4992,
+"plugs": [
+{
+"id": 1951,
+"type": 2
+},
+{
+"id": 1952,
+"type": 3,
+"trgs": [
+1954
+]
+}
+],
+"script": "dump O_SPEAR_CURSE_GRAVEYARD",
+"plugCount": 1
+},
+{
+"type": 780,
+"id": 1953,
+"x": 1214,
+"y": 4992,
+"plugs": [
+{
+"id": 1954,
+"type": 2
+},
+{
+"id": 1955,
+"type": 3
+}
+],
+"puzzle": "#Kill_Spider_Curse_Yard"
 }
 ]
 }
@@ -17729,9 +18210,9 @@
 "uid": "R_CURSE_GRAVEYARD",
 "graph": {
 "board": {
-"nextid": 3229,
-"x": 25,
-"y": -261,
+"nextid": 3337,
+"x": -17,
+"y": -477,
 "boxes": [
 {
 "type": 257,
@@ -17869,8 +18350,8 @@
 {
 "type": 1287,
 "id": 2992,
-"x": 225,
-"y": 570,
+"x": 223,
+"y": 583,
 "plugs": [
 {
 "id": 2993,
@@ -17880,15 +18361,15 @@
 ]
 }
 ],
-"unresolved": "#Kill_Curse_Mage",
+"unresolved": "#Dig_Curse_Yard",
 "varCmp": "==",
 "scene": "S_CURSE_GRAVEYARD"
 },
 {
 "type": 788,
 "id": 2994,
-"x": 422,
-"y": 570,
+"x": 396,
+"y": 582,
 "plugs": [
 {
 "id": 2995,
@@ -17903,15 +18384,15 @@
 }
 ],
 "player": "P_HERO",
-"obj": "O_SCEPTRE_CURSE_YARD2",
+"obj": "O_SHOVEL_CURSE_GRAVEYARD",
 "silent": "False"
 },
 {
 "type": 513,
 "id": 2997,
 "comment": "Open",
-"x": 625,
-"y": 570,
+"x": 629,
+"y": 583,
 "plugs": [
 {
 "id": 2998,
@@ -17931,8 +18412,8 @@
 {
 "type": 781,
 "id": 3000,
-"x": 727,
-"y": 570,
+"x": 737,
+"y": 582,
 "plugs": [
 {
 "id": 3001,
@@ -17944,7 +18425,7 @@
 }
 ],
 "dialog": "D_HERO_OBJECT",
-"sentence": "37"
+"sentence": "1"
 },
 {
 "type": 256,
@@ -18061,7 +18542,7 @@
 "id": 3081,
 "resize": true,
 "width": 739,
-"height": 144,
+"height": 112,
 "x": 219,
 "y": 723,
 "name": "Lance"
@@ -18129,16 +18610,16 @@
 "id": 3135,
 "resize": true,
 "width": 1102,
-"height": 430,
-"x": 219,
-"y": 898,
+"height": 373,
+"x": 220,
+"y": 866,
 "name": "Cyclops"
 },
 {
 "type": 1281,
 "id": 3136,
-"x": 236,
-"y": 926,
+"x": 237,
+"y": 894,
 "plugs": [
 {
 "id": 3137,
@@ -18157,8 +18638,8 @@
 {
 "type": 783,
 "id": 3138,
-"x": 464,
-"y": 926,
+"x": 465,
+"y": 894,
 "plugs": [
 {
 "id": 3139,
@@ -18184,8 +18665,8 @@
 {
 "type": 781,
 "id": 3141,
-"x": 696,
-"y": 926,
+"x": 697,
+"y": 894,
 "plugs": [
 {
 "id": 3142,
@@ -18202,8 +18683,8 @@
 {
 "type": 1287,
 "id": 3144,
-"x": 236,
-"y": 1074,
+"x": 237,
+"y": 1042,
 "plugs": [
 {
 "id": 3145,
@@ -18220,8 +18701,8 @@
 {
 "type": 781,
 "id": 3146,
-"x": 465,
-"y": 1075,
+"x": 466,
+"y": 1043,
 "plugs": [
 {
 "id": 3147,
@@ -18238,8 +18719,8 @@
 {
 "type": 1290,
 "id": 3149,
-"x": 231,
-"y": 1186,
+"x": 232,
+"y": 1154,
 "plugs": [
 {
 "id": 3150,
@@ -18256,8 +18737,8 @@
 {
 "type": 783,
 "id": 3151,
-"x": 451,
-"y": 1187,
+"x": 452,
+"y": 1155,
 "plugs": [
 {
 "id": 3152,
@@ -18283,8 +18764,8 @@
 {
 "type": 786,
 "id": 3154,
-"x": 655,
-"y": 1188,
+"x": 656,
+"y": 1156,
 "plugs": [
 {
 "id": 3155,
@@ -18306,8 +18787,8 @@
 {
 "type": 781,
 "id": 3157,
-"x": 866,
-"y": 1189,
+"x": 867,
+"y": 1157,
 "plugs": [
 {
 "id": 3158,
@@ -18328,8 +18809,8 @@
 "type": 513,
 "id": 3160,
 "comment": "DUMP",
-"x": 1020,
-"y": 1189,
+"x": 1021,
+"y": 1157,
 "plugs": [
 {
 "id": 3161,
@@ -18349,8 +18830,8 @@
 {
 "type": 780,
 "id": 3163,
-"x": 1126,
-"y": 1189,
+"x": 1127,
+"y": 1157,
 "plugs": [
 {
 "id": 3164,
@@ -362181,7 +362662,7 @@
 }
 ],
 "meta": {
-"nextAssetID": 260
+"nextAssetID": 261
 },
 "dialogs": [
 {
@@ -363656,10 +364137,55 @@
 }
 ],
 "speaker": "O_HERO"
+},
+{
+"id": 17,
+"text": {
+"fr": "Je peux passer ?"
+},
+"sentences": [
+{
+"id": 18,
+"text": {
+"fr": "Ssssppppiiiiidddddeeeeerrrrrsssssss !!!"
+},
+"speaker": "O_SPIDER_YARD2",
+"exit": true
+}
+],
+"speaker": "O_HERO"
 }
 ]
 },
-"nextID": 17
+"nextID": 19
+}
+},
+{
+"sid": 260,
+"uid": "D_CURSE_GRAVEYARD",
+"dialog": {
+"sentence": {
+"sentences": [
+{
+"id": 1,
+"text": {
+"fr": "Je peux passer ?"
+},
+"sentences": [
+{
+"id": 2,
+"text": {
+"fr": "Mmrrrrrnnnblooommmm !!!"
+},
+"speaker": "O_CYCLOPS_YARD1",
+"exit": true
+}
+],
+"speaker": "O_HERO"
+}
+]
+},
+"nextID": 3
 }
 }
 ]
