@@ -22834,10 +22834,10 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 55,
+"zoom": 65,
 "nextID": 57,
-"x": 35,
-"y": -128,
+"x": 1530,
+"y": -148,
 "role": "R_YARD_DUNGEON"
 },
 "objects": [
@@ -81929,10 +81929,10 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 25,
+"zoom": 15,
 "nextID": 36,
-"x": -325,
-"y": -126,
+"x": -362,
+"y": -68,
 "role": "R_VILLAGE_TOWN"
 },
 "sid": 45,
@@ -121145,10 +121145,10 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 100,
+"zoom": 35,
 "nextID": 16,
-"x": -1,
-"y": 1133,
+"x": -75,
+"y": -87,
 "role": "R_CAMPAIGN"
 },
 "objects": [
@@ -129489,10 +129489,10 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 35,
+"zoom": 25,
 "nextID": 18,
-"x": -83,
-"y": 24,
+"x": -63,
+"y": -69,
 "role": "R_ENTRANCE"
 },
 "sid": 103,
@@ -179547,10 +179547,10 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 15,
+"zoom": 25,
 "nextID": 29,
-"x": 11,
-"y": -100,
+"x": -227,
+"y": -298,
 "role": "R_GRAVEYARD"
 },
 "sid": 150,
@@ -222216,10 +222216,10 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 30,
+"zoom": 45,
 "nextID": 17,
-"x": -188,
-"y": -137,
+"x": -114,
+"y": -48,
 "role": "R_CHAMBER"
 },
 "objects": [
@@ -245987,10 +245987,10 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 55,
+"zoom": 50,
 "nextID": 5,
-"x": -182,
-"y": -91,
+"x": -198,
+"y": 36,
 "role": "R_TOWER"
 },
 "objects": [
@@ -250739,10 +250739,10 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 100,
+"zoom": 70,
 "nextID": 108,
-"x": 822,
-"y": 53,
+"x": 1121,
+"y": 213,
 "role": "R_CURSE_YARD_DUNGEON"
 },
 "objects": [
@@ -356963,10 +356963,10 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 75,
+"zoom": 25,
 "nextID": 16,
-"x": 167,
-"y": 687
+"x": -194,
+"y": -215
 },
 "objects": [
 {
@@ -365038,8 +365038,8 @@
 "",
 ""
 ],
-"x": 2608,
-"y": 2504,
+"x": 2532,
+"y": 3176,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -365075,8 +365075,8 @@
 "",
 ""
 ],
-"x": 2887,
-"y": 2423,
+"x": 2811,
+"y": 3095,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
