@@ -137,7 +137,7 @@
 "scenario": {
 "board": {
 "nextid": 310,
-"x": -9071,
+"x": -8872,
 "boxes": [
 {
 "type": 257,
@@ -22836,8 +22836,8 @@
 },
 "zoom": 65,
 "nextID": 57,
-"x": 1530,
-"y": -148,
+"x": 1073,
+"y": -17,
 "role": "R_YARD_DUNGEON"
 },
 "objects": [
@@ -250739,10 +250739,10 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 70,
+"zoom": 85,
 "nextID": 108,
-"x": 1121,
-"y": 213,
+"x": 1124,
+"y": 92,
 "role": "R_CURSE_YARD_DUNGEON"
 },
 "objects": [
