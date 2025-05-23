@@ -136,8 +136,8 @@
 },
 "scenario": {
 "board": {
-"nextid": 310,
-"x": -8872,
+"nextid": 313,
+"x": -10794,
 "boxes": [
 {
 "type": 257,
@@ -161,8 +161,8 @@
 "type": 260,
 "id": 3,
 "name": "end",
-"x": 12732,
-"y": 256,
+"x": 12884,
+"y": 232,
 "plugs": [
 {
 "id": 4,
@@ -514,8 +514,8 @@
 "type": 262,
 "id": 62,
 "name": "#Dongeon",
-"x": 12512,
-"y": 256,
+"x": 12496,
+"y": 232,
 "plugs": [
 {
 "id": 63,
@@ -525,7 +525,7 @@
 "id": 64,
 "type": 3,
 "trgs": [
-180
+311
 ]
 }
 ]
@@ -1267,14 +1267,15 @@
 192
 ]
 }
-]
+],
+"resolved": true
 },
 {
 "type": 256,
 "id": 179,
 "name": "#End",
-"x": 12632,
-"y": 344,
+"x": 12768,
+"y": 232,
 "plugs": [
 {
 "id": 180,
@@ -1352,7 +1353,8 @@
 237
 ]
 }
-]
+],
+"resolved": true
 },
 {
 "type": 262,
@@ -1372,7 +1374,8 @@
 204
 ]
 }
-]
+],
+"resolved": true
 },
 {
 "type": 256,
@@ -1414,14 +1417,16 @@
 222
 ]
 }
-]
+],
+"exit": "hide S_CURSE_YARD_DUNGEON.O_RAT_CURSE_YARD2\r\nhide S_CURSE_YARD_DUNGEON.O_RAT_CURSE_YARD3",
+"resolved": true
 },
 {
 "type": 262,
 "id": 200,
 "name": "#Curse_Yard",
-"x": 11136,
-"y": 248,
+"x": 11016,
+"y": 232,
 "plugs": [
 {
 "id": 201,
@@ -1434,7 +1439,8 @@
 213
 ]
 }
-]
+],
+"resolved": true
 },
 {
 "type": 256,
@@ -1454,7 +1460,8 @@
 198
 ]
 }
-]
+],
+"resolved": true
 },
 {
 "type": 256,
@@ -1475,14 +1482,15 @@
 ]
 }
 ],
-"exit": "show S_CURSE_YARD_DUNGEON.O_RAT_CURSE_YARD2\r\nshow S_CURSE_YARD_DUNGEON.O_RAT_CURSE_YARD3"
+"exit": "show S_CURSE_YARD_DUNGEON.O_RAT_CURSE_YARD2\r\nshow S_CURSE_YARD_DUNGEON.O_RAT_CURSE_YARD3",
+"resolved": true
 },
 {
 "type": 256,
 "id": 209,
 "name": "#Kill_Curse_Princesse",
-"x": 10432,
-"y": 344,
+"x": 10440,
+"y": 232,
 "plugs": [
 {
 "id": 210,
@@ -1497,14 +1505,15 @@
 ]
 }
 ],
-"exit": "show S_CURSE_YARD_DUNGEON.O_TOMBE_STONE_CURSE_YARD"
+"exit": "show S_CURSE_YARD_DUNGEON.O_TOMBE_STONE_CURSE_YARD",
+"resolved": true
 },
 {
 "type": 256,
 "id": 212,
 "name": "#Go_To_Well",
-"x": 11272,
-"y": 344,
+"x": 11144,
+"y": 232,
 "plugs": [
 {
 "id": 213,
@@ -1517,14 +1526,16 @@
 216
 ]
 }
-]
+],
+"exit": "jump S_CAMPAIGN_AFTER\r\ntake P_HERO O_GOLD_BLOCK_TREASURE",
+"resolved": true
 },
 {
 "type": 258,
 "id": 215,
 "name": "#Well",
-"x": 11432,
-"y": 256,
+"x": 11272,
+"y": 232,
 "plugs": [
 {
 "id": 216,
@@ -1544,7 +1555,7 @@
 "id": 218,
 "name": "#Well",
 "x": 12392,
-"y": 256,
+"y": 232,
 "plugs": [
 {
 "id": 219,
@@ -1577,13 +1588,14 @@
 246
 ]
 }
-]
+],
+"resolved": true
 },
 {
 "type": 256,
 "id": 224,
 "name": "#Kill_Bat_Curse_Yard",
-"x": 8176,
+"x": 8184,
 "y": 32,
 "plugs": [
 {
@@ -1598,7 +1610,8 @@
 308
 ]
 }
-]
+],
+"resolved": true
 },
 {
 "type": 256,
@@ -1619,7 +1632,8 @@
 225
 ]
 }
-]
+],
+"resolved": true
 },
 {
 "type": 256,
@@ -1639,7 +1653,8 @@
 192
 ]
 }
-]
+],
+"resolved": true
 },
 {
 "type": 256,
@@ -1659,7 +1674,8 @@
 192
 ]
 }
-]
+],
+"resolved": true
 },
 {
 "type": 256,
@@ -1679,14 +1695,15 @@
 192
 ]
 }
-]
+],
+"resolved": true
 },
 {
 "type": 256,
 "id": 239,
 "name": "#Kill_Spider_Curse_Yard",
 "x": 8176,
-"y": 112,
+"y": 152,
 "plugs": [
 {
 "id": 240,
@@ -1699,7 +1716,8 @@
 267
 ]
 }
-]
+],
+"resolved": true
 },
 {
 "type": 256,
@@ -1719,7 +1737,8 @@
 288
 ]
 }
-]
+],
+"resolved": true
 },
 {
 "type": 256,
@@ -1739,7 +1758,8 @@
 228
 ]
 }
-]
+],
+"resolved": true
 },
 {
 "type": 258,
@@ -1760,7 +1780,8 @@
 243
 ]
 }
-]
+],
+"resolved": true
 },
 {
 "type": 262,
@@ -1780,7 +1801,8 @@
 288
 ]
 }
-]
+],
+"resolved": true
 },
 {
 "type": 256,
@@ -1801,34 +1823,15 @@
 240
 ]
 }
-]
-},
-{
-"type": 256,
-"id": 260,
-"name": "#Kill_Rat_Curse_Yard2",
-"x": 10992,
-"y": 344,
-"plugs": [
-{
-"id": 261,
-"type": 2
-},
-{
-"id": 262,
-"type": 3,
-"trgs": [
-201
-]
-}
-]
+],
+"resolved": true
 },
 {
 "type": 256,
 "id": 263,
 "name": "#Hit_Curse_Princesse1",
 "x": 9504,
-"y": 344,
+"y": 232,
 "plugs": [
 {
 "id": 264,
@@ -1841,7 +1844,8 @@
 294
 ]
 }
-]
+],
+"resolved": true
 },
 {
 "type": 256,
@@ -1861,14 +1865,15 @@
 276
 ]
 }
-]
+],
+"resolved": true
 },
 {
 "type": 256,
 "id": 269,
 "name": "#Dig_Curse_Yard",
 "x": 9504,
-"y": 416,
+"y": 152,
 "plugs": [
 {
 "id": 270,
@@ -1881,7 +1886,8 @@
 294
 ]
 }
-]
+],
+"resolved": true
 },
 {
 "type": 256,
@@ -1901,7 +1907,8 @@
 255
 ]
 }
-]
+],
+"resolved": true
 },
 {
 "type": 256,
@@ -1921,14 +1928,15 @@
 273
 ]
 }
-]
+],
+"resolved": true
 },
 {
 "type": 256,
 "id": 278,
 "name": "#Hit_Curse_Princesse2",
 "x": 9896,
-"y": 344,
+"y": 232,
 "plugs": [
 {
 "id": 279,
@@ -1942,14 +1950,15 @@
 ]
 }
 ],
-"exit": "show S_CURSE_YARD_DUNGEON.O_SHEILD_CURSE_YARD"
+"exit": "show S_CURSE_YARD_DUNGEON.O_SHEILD_CURSE_YARD",
+"resolved": true
 },
 {
 "type": 256,
 "id": 281,
 "name": "#Destroy_Tombe_Curse_Yard",
-"x": 10608,
-"y": 344,
+"x": 10632,
+"y": 232,
 "plugs": [
 {
 "id": 282,
@@ -1962,14 +1971,15 @@
 285
 ]
 }
-]
+],
+"resolved": true
 },
 {
 "type": 256,
 "id": 284,
 "name": "#Kill_Guard_Curse",
-"x": 10824,
-"y": 344,
+"x": 10848,
+"y": 232,
 "plugs": [
 {
 "id": 285,
@@ -1979,10 +1989,11 @@
 "id": 286,
 "type": 3,
 "trgs": [
-261
+201
 ]
 }
-]
+],
+"resolved": true
 },
 {
 "type": 256,
@@ -2003,14 +2014,15 @@
 264
 ]
 }
-]
+],
+"resolved": true
 },
 {
 "type": 256,
 "id": 290,
 "name": "#Kill_Rat_Curse_Curse_Yard2",
-"x": 10080,
-"y": 344,
+"x": 10088,
+"y": 232,
 "plugs": [
 {
 "id": 291,
@@ -2023,14 +2035,15 @@
 297
 ]
 }
-]
+],
+"resolved": true
 },
 {
 "type": 256,
 "id": 293,
 "name": "#Destroy_Box_Curse_Yard",
-"x": 9688,
-"y": 344,
+"x": 9680,
+"y": 232,
 "plugs": [
 {
 "id": 294,
@@ -2043,14 +2056,15 @@
 279
 ]
 }
-]
+],
+"resolved": true
 },
 {
 "type": 256,
 "id": 296,
 "name": "#Kill_Spectrum",
-"x": 10288,
-"y": 344,
+"x": 10296,
+"y": 232,
 "plugs": [
 {
 "id": 297,
@@ -2063,14 +2077,15 @@
 210
 ]
 }
-]
+],
+"resolved": true
 },
 {
 "type": 260,
 "id": 302,
 "name": "end",
-"x": 10856,
-"y": 296,
+"x": 10800,
+"y": 32,
 "plugs": [
 {
 "id": 303,
@@ -2082,8 +2097,8 @@
 "type": 256,
 "id": 304,
 "name": "#No_take_Bomb",
-"x": 10616,
-"y": 296,
+"x": 10648,
+"y": 32,
 "plugs": [
 {
 "id": 305,
@@ -2102,8 +2117,8 @@
 "type": 256,
 "id": 307,
 "name": "#Take_Bomb",
-"x": 10480,
-"y": 296,
+"x": 10472,
+"y": 32,
 "plugs": [
 {
 "id": 308,
@@ -2114,6 +2129,27 @@
 "type": 3,
 "trgs": [
 282
+]
+}
+],
+"resolved": true
+},
+{
+"type": 256,
+"id": 310,
+"name": "#New_House",
+"x": 12640,
+"y": 232,
+"plugs": [
+{
+"id": 311,
+"type": 2
+},
+{
+"id": 312,
+"type": 3,
+"trgs": [
+180
 ]
 }
 ]
@@ -15740,9 +15776,9 @@
 "uid": "R_CURSE_YARD_DUNGEON",
 "graph": {
 "board": {
-"nextid": 7232,
-"x": 210,
-"y": -5054,
+"nextid": 8598,
+"x": 116,
+"y": 427,
 "boxes": [
 {
 "type": 257,
@@ -16346,25 +16382,6 @@
 "easeOut": "True"
 },
 {
-"type": 513,
-"id": 212,
-"comment": "DUMP",
-"x": 927,
-"y": 1023,
-"plugs": [
-{
-"id": 213,
-"type": 2
-},
-{
-"id": 214,
-"type": 3
-}
-],
-"script": "dump O_SCEPTRE_CURSE_YARD1",
-"plugCount": 1
-},
-{
 "type": 256,
 "id": 227,
 "resize": true,
@@ -16398,37 +16415,11 @@
 "type": 256,
 "id": 230,
 "resize": true,
-"width": 1035,
-"height": 376,
+"width": 1061,
+"height": 377,
 "x": -27,
 "y": 735,
 "name": "Mage Maudit Phase 1"
-},
-{
-"type": 783,
-"id": 270,
-"x": 707,
-"y": 1023,
-"plugs": [
-{
-"id": 271,
-"type": 2
-},
-{
-"id": 272,
-"type": 3,
-"trgs": [
-213
-]
-}
-],
-"scene": "S_CURSE_YARD_DUNGEON",
-"obj": "O_MAGE_CURSE_CURSE_YARD",
-"cell": "MAGE_CURSE_MOVE",
-"straight": "False",
-"duration": "0",
-"easeIn": "True",
-"easeOut": "True"
 },
 {
 "type": 781,
@@ -16444,7 +16435,7 @@
 "id": 275,
 "type": 3,
 "trgs": [
-271
+7506
 ]
 }
 ],
@@ -17561,8 +17552,8 @@
 "type": 256,
 "id": 1358,
 "resize": true,
-"width": 1266,
-"height": 457,
+"width": 1436,
+"height": 465,
 "x": -14,
 "y": 3105,
 "name": "Rat2"
@@ -17582,7 +17573,6 @@
 }
 ],
 "resolved": "#Kill_Curse_Mage",
-"unresolved": "#Kill_Rat_Curse_Yard2",
 "varCmp": "==",
 "scene": "S_CURSE_YARD_DUNGEON",
 "obj": "O_HERO",
@@ -18877,8 +18867,8 @@
 {
 "type": 781,
 "id": 3867,
-"x": 692,
-"y": 5362,
+"x": 924,
+"y": 5363,
 "plugs": [
 {
 "id": 3868,
@@ -18899,8 +18889,8 @@
 "type": 256,
 "id": 3870,
 "resize": true,
-"width": 1156,
-"height": 126,
+"width": 1355,
+"height": 129,
 "x": -11,
 "y": 5313,
 "name": "Grasse"
@@ -18915,7 +18905,7 @@
 "id": 3872,
 "type": 3,
 "trgs": [
-3874
+7494
 ]
 }
 ],
@@ -18926,8 +18916,8 @@
 {
 "type": 786,
 "id": 3873,
-"x": 249,
-"y": 5361,
+"x": 481,
+"y": 5362,
 "plugs": [
 {
 "id": 3874,
@@ -18949,8 +18939,8 @@
 {
 "type": 786,
 "id": 3876,
-"x": 459,
-"y": 5362,
+"x": 691,
+"y": 5363,
 "plugs": [
 {
 "id": 3877,
@@ -19031,8 +19021,8 @@
 "type": 513,
 "id": 4064,
 "comment": "DUMP",
-"x": 867,
-"y": 5363,
+"x": 1099,
+"y": 5364,
 "plugs": [
 {
 "id": 4065,
@@ -19052,8 +19042,8 @@
 {
 "type": 780,
 "id": 4076,
-"x": 977,
-"y": 5362,
+"x": 1209,
+"y": 5363,
 "plugs": [
 {
 "id": 4077,
@@ -19188,7 +19178,7 @@
 "type": 1281,
 "id": 4095,
 "x": -3,
-"y": 7221,
+"y": 7392,
 "plugs": [
 {
 "id": 4096,
@@ -19208,7 +19198,7 @@
 "type": 783,
 "id": 4097,
 "x": 233,
-"y": 7222,
+"y": 7393,
 "plugs": [
 {
 "id": 4098,
@@ -19235,7 +19225,7 @@
 "type": 781,
 "id": 4100,
 "x": 464,
-"y": 7222,
+"y": 7393,
 "plugs": [
 {
 "id": 4101,
@@ -19253,7 +19243,7 @@
 "type": 1287,
 "id": 4103,
 "x": 1,
-"y": 7364,
+"y": 7535,
 "plugs": [
 {
 "id": 4104,
@@ -19271,7 +19261,7 @@
 "type": 781,
 "id": 4105,
 "x": 234,
-"y": 7363,
+"y": 7534,
 "plugs": [
 {
 "id": 4106,
@@ -19289,7 +19279,7 @@
 "type": 1290,
 "id": 4108,
 "x": -5,
-"y": 7478,
+"y": 7649,
 "plugs": [
 {
 "id": 4109,
@@ -19307,7 +19297,7 @@
 "type": 783,
 "id": 4110,
 "x": 223,
-"y": 7479,
+"y": 7650,
 "plugs": [
 {
 "id": 4111,
@@ -19334,7 +19324,7 @@
 "type": 786,
 "id": 4113,
 "x": 423,
-"y": 7480,
+"y": 7651,
 "plugs": [
 {
 "id": 4114,
@@ -19357,7 +19347,7 @@
 "type": 781,
 "id": 4116,
 "x": 634,
-"y": 7481,
+"y": 7652,
 "plugs": [
 {
 "id": 4117,
@@ -19379,7 +19369,7 @@
 "id": 4119,
 "comment": "DUMP",
 "x": 788,
-"y": 7481,
+"y": 7652,
 "plugs": [
 {
 "id": 4120,
@@ -19400,7 +19390,7 @@
 "type": 780,
 "id": 4122,
 "x": 894,
-"y": 7481,
+"y": 7652,
 "plugs": [
 {
 "id": 4123,
@@ -19739,8 +19729,8 @@
 "resize": true,
 "width": 1108,
 "height": 382,
-"x": -17,
-"y": 7617,
+"x": -12,
+"y": 7785,
 "name": "Spectre"
 },
 {
@@ -19935,7 +19925,7 @@
 "id": 4448,
 "type": 3,
 "trgs": [
-4450
+7521
 ]
 }
 ],
@@ -19943,56 +19933,11 @@
 "sentence": "49"
 },
 {
-"type": 783,
-"id": 4449,
-"x": 816,
-"y": 5757,
-"plugs": [
-{
-"id": 4450,
-"type": 2
-},
-{
-"id": 4451,
-"type": 3,
-"trgs": [
-4453
-]
-}
-],
-"scene": "S_CURSE_YARD_DUNGEON",
-"obj": "O_PRINCESSE_CURSE_CURSE_YARD",
-"cell": "PRINCESSE_MOVE1",
-"straight": "False",
-"duration": "0",
-"easeIn": "True",
-"easeOut": "True"
-},
-{
-"type": 513,
-"id": 4452,
-"comment": "DUMP",
-"x": 1065,
-"y": 5757,
-"plugs": [
-{
-"id": 4453,
-"type": 2
-},
-{
-"id": 4454,
-"type": 3
-}
-],
-"script": "dump O_POTION_BLUE",
-"plugCount": 1
-},
-{
 "type": 256,
 "id": 4464,
 "resize": true,
-"width": 1373,
-"height": 380,
+"width": 1556,
+"height": 375,
 "x": -11,
 "y": 6783,
 "name": "Princesse Maudit Phase 2"
@@ -20265,15 +20210,15 @@
 "resize": true,
 "width": 608,
 "height": 148,
-"x": -17,
-"y": 8032,
+"x": -13,
+"y": 8207,
 "name": "Potion Vert"
 },
 {
 "type": 1287,
 "id": 4526,
-"x": -1,
-"y": 8077,
+"x": 3,
+"y": 8252,
 "plugs": [
 {
 "id": 4527,
@@ -20290,8 +20235,8 @@
 {
 "type": 788,
 "id": 4528,
-"x": 206,
-"y": 8078,
+"x": 210,
+"y": 8253,
 "plugs": [
 {
 "id": 4529,
@@ -20312,8 +20257,8 @@
 {
 "type": 781,
 "id": 4534,
-"x": 387,
-"y": 8079,
+"x": 391,
+"y": 8254,
 "plugs": [
 {
 "id": 4535,
@@ -20331,17 +20276,17 @@
 "type": 256,
 "id": 4546,
 "resize": true,
-"width": 1332,
-"height": 444,
-"x": -16,
-"y": 8219,
+"width": 1358,
+"height": 441,
+"x": -14,
+"y": 8380,
 "name": "Princesse Maudit Phase 3"
 },
 {
 "type": 781,
 "id": 4547,
-"x": 252,
-"y": 8396,
+"x": 254,
+"y": 8557,
 "plugs": [
 {
 "id": 4548,
@@ -20358,8 +20303,8 @@
 {
 "type": 1287,
 "id": 4550,
-"x": -3,
-"y": 8395,
+"x": -1,
+"y": 8556,
 "plugs": [
 {
 "id": 4551,
@@ -20378,8 +20323,8 @@
 {
 "type": 1290,
 "id": 4552,
-"x": -4,
-"y": 8541,
+"x": -2,
+"y": 8702,
 "plugs": [
 {
 "id": 4553,
@@ -20398,8 +20343,8 @@
 {
 "type": 783,
 "id": 4554,
-"x": 254,
-"y": 8540,
+"x": 256,
+"y": 8701,
 "plugs": [
 {
 "id": 4555,
@@ -20425,8 +20370,8 @@
 {
 "type": 780,
 "id": 4557,
-"x": 932,
-"y": 8542,
+"x": 934,
+"y": 8703,
 "plugs": [
 {
 "id": 4558,
@@ -20434,7 +20379,10 @@
 },
 {
 "id": 4559,
-"type": 3
+"type": 3,
+"trgs": [
+5557
+]
 }
 ],
 "puzzle": "#Kill_Curse_Princesse"
@@ -20442,8 +20390,8 @@
 {
 "type": 781,
 "id": 4560,
-"x": 460,
-"y": 8541,
+"x": 462,
+"y": 8702,
 "plugs": [
 {
 "id": 4561,
@@ -20464,8 +20412,8 @@
 "type": 513,
 "id": 4566,
 "comment": "DUMP",
-"x": 624,
-"y": 8542,
+"x": 626,
+"y": 8703,
 "plugs": [
 {
 "id": 4567,
@@ -20508,7 +20456,8 @@
 {
 "type": 1281,
 "id": 5283,
-"y": 8243,
+"x": 2,
+"y": 8404,
 "plugs": [
 {
 "id": 5284,
@@ -20528,8 +20477,8 @@
 {
 "type": 783,
 "id": 5285,
-"x": 202,
-"y": 8244,
+"x": 204,
+"y": 8405,
 "plugs": [
 {
 "id": 5286,
@@ -20555,8 +20504,8 @@
 {
 "type": 781,
 "id": 5288,
-"x": 419,
-"y": 8245,
+"x": 421,
+"y": 8406,
 "plugs": [
 {
 "id": 5289,
@@ -20568,7 +20517,7 @@
 }
 ],
 "dialog": "D_CURSE_YARD",
-"sentence": "5"
+"sentence": "35"
 },
 {
 "type": 256,
@@ -20577,14 +20526,14 @@
 "width": 1108,
 "height": 382,
 "x": -13,
-"y": 7200,
+"y": 7371,
 "name": " Rat Maudit2"
 },
 {
 "type": 1281,
 "id": 5517,
-"x": 3,
-"y": 7648,
+"x": 8,
+"y": 7816,
 "plugs": [
 {
 "id": 5518,
@@ -20603,8 +20552,8 @@
 {
 "type": 783,
 "id": 5519,
-"x": 239,
-"y": 7649,
+"x": 244,
+"y": 7817,
 "plugs": [
 {
 "id": 5520,
@@ -20630,8 +20579,8 @@
 {
 "type": 781,
 "id": 5522,
-"x": 470,
-"y": 7649,
+"x": 475,
+"y": 7817,
 "plugs": [
 {
 "id": 5523,
@@ -20648,8 +20597,8 @@
 {
 "type": 1287,
 "id": 5525,
-"x": 7,
-"y": 7791,
+"x": 12,
+"y": 7959,
 "plugs": [
 {
 "id": 5526,
@@ -20666,8 +20615,8 @@
 {
 "type": 781,
 "id": 5527,
-"x": 240,
-"y": 7790,
+"x": 245,
+"y": 7958,
 "plugs": [
 {
 "id": 5528,
@@ -20684,8 +20633,8 @@
 {
 "type": 1290,
 "id": 5530,
-"x": 1,
-"y": 7905,
+"x": 6,
+"y": 8073,
 "plugs": [
 {
 "id": 5531,
@@ -20702,8 +20651,8 @@
 {
 "type": 783,
 "id": 5532,
-"x": 229,
-"y": 7906,
+"x": 234,
+"y": 8074,
 "plugs": [
 {
 "id": 5533,
@@ -20729,8 +20678,8 @@
 {
 "type": 786,
 "id": 5535,
-"x": 429,
-"y": 7907,
+"x": 434,
+"y": 8075,
 "plugs": [
 {
 "id": 5536,
@@ -20752,8 +20701,8 @@
 {
 "type": 781,
 "id": 5538,
-"x": 640,
-"y": 7908,
+"x": 645,
+"y": 8076,
 "plugs": [
 {
 "id": 5539,
@@ -20774,8 +20723,8 @@
 "type": 513,
 "id": 5541,
 "comment": "DUMP",
-"x": 794,
-"y": 7908,
+"x": 799,
+"y": 8076,
 "plugs": [
 {
 "id": 5542,
@@ -20795,8 +20744,8 @@
 {
 "type": 780,
 "id": 5544,
-"x": 900,
-"y": 7908,
+"x": 905,
+"y": 8076,
 "plugs": [
 {
 "id": 5545,
@@ -20812,8 +20761,8 @@
 {
 "type": 786,
 "id": 5556,
-"x": 1106,
-"y": 8544,
+"x": 1108,
+"y": 8705,
 "plugs": [
 {
 "id": 5557,
@@ -20824,15 +20773,16 @@
 "type": 3
 }
 ],
-"visible": "True",
+"visible": "False",
 "duration": "0",
-"scene": "S_CURSE_YARD_DUNGEON"
+"scene": "S_CURSE_YARD_DUNGEON",
+"obj": "O_PRINCESSE_CURSE_CURSE_YARD"
 },
 {
 "type": 781,
 "id": 5559,
-"x": 737,
-"y": 8543,
+"x": 739,
+"y": 8704,
 "plugs": [
 {
 "id": 5560,
@@ -20852,8 +20802,8 @@
 {
 "type": 1281,
 "id": 5796,
-"x": 3,
-"y": 8721,
+"x": 5,
+"y": 8893,
 "plugs": [
 {
 "id": 5797,
@@ -20873,8 +20823,8 @@
 {
 "type": 783,
 "id": 5798,
-"x": 239,
-"y": 8722,
+"x": 241,
+"y": 8894,
 "plugs": [
 {
 "id": 5799,
@@ -20900,8 +20850,8 @@
 {
 "type": 781,
 "id": 5801,
-"x": 470,
-"y": 8722,
+"x": 472,
+"y": 8894,
 "plugs": [
 {
 "id": 5802,
@@ -20918,8 +20868,8 @@
 {
 "type": 1287,
 "id": 5804,
-"x": 2,
-"y": 8879,
+"x": 4,
+"y": 9051,
 "plugs": [
 {
 "id": 5805,
@@ -20936,8 +20886,8 @@
 {
 "type": 781,
 "id": 5806,
-"x": 235,
-"y": 8878,
+"x": 237,
+"y": 9050,
 "plugs": [
 {
 "id": 5807,
@@ -20954,8 +20904,8 @@
 {
 "type": 1290,
 "id": 5809,
-"x": 1,
-"y": 8978,
+"x": 3,
+"y": 9150,
 "plugs": [
 {
 "id": 5810,
@@ -20972,8 +20922,8 @@
 {
 "type": 783,
 "id": 5811,
-"x": 234,
-"y": 8979,
+"x": 236,
+"y": 9151,
 "plugs": [
 {
 "id": 5812,
@@ -20999,8 +20949,8 @@
 {
 "type": 786,
 "id": 5814,
-"x": 455,
-"y": 8979,
+"x": 457,
+"y": 9151,
 "plugs": [
 {
 "id": 5815,
@@ -21022,8 +20972,8 @@
 {
 "type": 781,
 "id": 5817,
-"x": 690,
-"y": 8979,
+"x": 692,
+"y": 9151,
 "plugs": [
 {
 "id": 5818,
@@ -21044,8 +20994,8 @@
 "type": 513,
 "id": 5820,
 "comment": "DUMP",
-"x": 894,
-"y": 8980,
+"x": 896,
+"y": 9152,
 "plugs": [
 {
 "id": 5821,
@@ -21065,8 +21015,8 @@
 {
 "type": 780,
 "id": 5823,
-"x": 1001,
-"y": 8981,
+"x": 1003,
+"y": 9153,
 "plugs": [
 {
 "id": 5824,
@@ -21085,8 +21035,8 @@
 "resize": true,
 "width": 1222,
 "height": 498,
-"x": -17,
-"y": 8690,
+"x": -15,
+"y": 8862,
 "name": "Tombe"
 },
 {
@@ -21109,7 +21059,8 @@
 {
 "type": 1303,
 "id": 5839,
-"y": 9080,
+"x": 2,
+"y": 9252,
 "plugs": [
 {
 "id": 5840,
@@ -21126,8 +21077,8 @@
 {
 "type": 771,
 "id": 5841,
-"x": 171,
-"y": 9080,
+"x": 173,
+"y": 9252,
 "plugs": [
 {
 "id": 5842,
@@ -21141,13 +21092,13 @@
 ]
 }
 ],
-"duration": "20"
+"duration": "20000"
 },
 {
 "type": 780,
 "id": 5844,
-"x": 288,
-"y": 9080,
+"x": 290,
+"y": 9252,
 "plugs": [
 {
 "id": 5845,
@@ -21166,8 +21117,8 @@
 {
 "type": 781,
 "id": 5847,
-"x": 455,
-"y": 9080,
+"x": 457,
+"y": 9252,
 "plugs": [
 {
 "id": 5848,
@@ -21187,15 +21138,15 @@
 "resize": true,
 "width": 739,
 "height": 144,
-"x": -20,
-"y": 9228,
+"x": -15,
+"y": 9386,
 "name": "Coffre"
 },
 {
 "type": 1287,
 "id": 5851,
-"x": -4,
-"y": 9273,
+"x": 1,
+"y": 9431,
 "plugs": [
 {
 "id": 5852,
@@ -21213,8 +21164,8 @@
 {
 "type": 788,
 "id": 5853,
-"x": 203,
-"y": 9274,
+"x": 208,
+"y": 9432,
 "plugs": [
 {
 "id": 5854,
@@ -21236,8 +21187,8 @@
 "type": 513,
 "id": 5856,
 "comment": "Open",
-"x": 388,
-"y": 9274,
+"x": 393,
+"y": 9432,
 "plugs": [
 {
 "id": 5857,
@@ -21257,8 +21208,8 @@
 {
 "type": 781,
 "id": 5859,
-"x": 505,
-"y": 9273,
+"x": 510,
+"y": 9431,
 "plugs": [
 {
 "id": 5860,
@@ -21278,15 +21229,15 @@
 "resize": true,
 "width": 1217,
 "height": 378,
-"x": -22,
-"y": 9403,
+"x": -16,
+"y": 9563,
 "name": "Garde"
 },
 {
 "type": 1281,
 "id": 5872,
-"x": -2,
-"y": 9434,
+"x": 4,
+"y": 9594,
 "plugs": [
 {
 "id": 5873,
@@ -21305,8 +21256,8 @@
 {
 "type": 1287,
 "id": 5874,
-"x": 2,
-"y": 9577,
+"x": 8,
+"y": 9737,
 "plugs": [
 {
 "id": 5875,
@@ -21323,8 +21274,8 @@
 {
 "type": 1290,
 "id": 5876,
-"x": -4,
-"y": 9691,
+"x": 2,
+"y": 9851,
 "plugs": [
 {
 "id": 5877,
@@ -21341,8 +21292,8 @@
 {
 "type": 783,
 "id": 5878,
-"x": 229,
-"y": 9692,
+"x": 235,
+"y": 9852,
 "plugs": [
 {
 "id": 5879,
@@ -21368,8 +21319,8 @@
 {
 "type": 781,
 "id": 5881,
-"x": 235,
-"y": 9576,
+"x": 241,
+"y": 9736,
 "plugs": [
 {
 "id": 5882,
@@ -21386,8 +21337,8 @@
 {
 "type": 783,
 "id": 5884,
-"x": 234,
-"y": 9435,
+"x": 240,
+"y": 9595,
 "plugs": [
 {
 "id": 5885,
@@ -21413,8 +21364,8 @@
 {
 "type": 781,
 "id": 5887,
-"x": 465,
-"y": 9435,
+"x": 471,
+"y": 9595,
 "plugs": [
 {
 "id": 5888,
@@ -21431,8 +21382,8 @@
 {
 "type": 786,
 "id": 5890,
-"x": 450,
-"y": 9692,
+"x": 456,
+"y": 9852,
 "plugs": [
 {
 "id": 5891,
@@ -21454,8 +21405,8 @@
 {
 "type": 781,
 "id": 5893,
-"x": 685,
-"y": 9692,
+"x": 691,
+"y": 9852,
 "plugs": [
 {
 "id": 5894,
@@ -21476,8 +21427,8 @@
 "type": 513,
 "id": 5896,
 "comment": "DUMP",
-"x": 889,
-"y": 9693,
+"x": 895,
+"y": 9853,
 "plugs": [
 {
 "id": 5897,
@@ -21497,8 +21448,8 @@
 {
 "type": 780,
 "id": 5899,
-"x": 996,
-"y": 9694,
+"x": 1002,
+"y": 9854,
 "plugs": [
 {
 "id": 5900,
@@ -21627,6 +21578,321 @@
 ],
 "dialog": "D_HERO_OBJECT",
 "sentence": "56"
+},
+{
+"type": 783,
+"id": 7493,
+"x": 250,
+"y": 5362,
+"plugs": [
+{
+"id": 7494,
+"type": 2
+},
+{
+"id": 7495,
+"type": 3,
+"trgs": [
+3874
+]
+}
+],
+"lock": true,
+"scene": "S_CURSE_YARD_DUNGEON",
+"obj": "O_HERO",
+"cell": "GRASS_TALK",
+"straight": "False",
+"duration": "0",
+"easeIn": "True",
+"easeOut": "True"
+},
+{
+"type": 1287,
+"id": 7496,
+"x": 7,
+"y": 7233,
+"plugs": [
+{
+"id": 7497,
+"type": 3,
+"trgs": [
+7499
+]
+}
+],
+"varCmp": "==",
+"scene": "S_CURSE_YARD_DUNGEON",
+"obj": "O_SHEILD_CURSE_YARD"
+},
+{
+"type": 788,
+"id": 7498,
+"x": 209,
+"y": 7234,
+"plugs": [
+{
+"id": 7499,
+"type": 2
+},
+{
+"id": 7500,
+"type": 3,
+"trgs": [
+7502
+]
+}
+],
+"player": "P_HERO",
+"obj": "O_SHEILD_CURSE_YARD",
+"silent": "False"
+},
+{
+"type": 781,
+"id": 7501,
+"x": 441,
+"y": 7235,
+"plugs": [
+{
+"id": 7502,
+"type": 2
+},
+{
+"id": 7503,
+"type": 3
+}
+],
+"dialog": "D_HERO_OBJECT",
+"sentence": "45"
+},
+{
+"type": 256,
+"id": 7504,
+"resize": true,
+"width": 869,
+"height": 138,
+"x": -13,
+"y": 7195,
+"name": "Hache"
+},
+{
+"type": 513,
+"id": 7505,
+"comment": "DUMP",
+"x": 713,
+"y": 1024,
+"plugs": [
+{
+"id": 7506,
+"type": 2
+},
+{
+"id": 7507,
+"type": 3,
+"trgs": [
+7518
+]
+}
+],
+"script": "dump O_SCEPTRE_CURSE_YARD1",
+"plugCount": 1
+},
+{
+"type": 783,
+"id": 7517,
+"x": 828,
+"y": 1025,
+"plugs": [
+{
+"id": 7518,
+"type": 2
+},
+{
+"id": 7519,
+"type": 3
+}
+],
+"scene": "S_CURSE_YARD_DUNGEON",
+"obj": "O_MAGE_CURSE_CURSE_YARD",
+"cell": "MAGE_CURSE_MOVE",
+"straight": "False",
+"duration": "0",
+"easeIn": "True",
+"easeOut": "True"
+},
+{
+"type": 513,
+"id": 7520,
+"comment": "DUMP",
+"x": 825,
+"y": 5758,
+"plugs": [
+{
+"id": 7521,
+"type": 2
+},
+{
+"id": 7522,
+"type": 3,
+"trgs": [
+7533
+]
+}
+],
+"script": "dump O_POTION_BLUE",
+"plugCount": 1
+},
+{
+"type": 783,
+"id": 7532,
+"x": 936,
+"y": 5758,
+"plugs": [
+{
+"id": 7533,
+"type": 2
+},
+{
+"id": 7534,
+"type": 3
+}
+],
+"scene": "S_CURSE_YARD_DUNGEON",
+"obj": "O_PRINCESSE_CURSE_CURSE_YARD",
+"cell": "PRINCESSE_MOVE1",
+"straight": "False",
+"duration": "0",
+"easeIn": "True",
+"easeOut": "True"
+},
+{
+"type": 1281,
+"id": 7535,
+"x": 745,
+"y": 3124,
+"plugs": [
+{
+"id": 7536,
+"type": 3,
+"trgs": [
+7538
+]
+}
+],
+"resolved": "#Kill_Curse_Mage",
+"varCmp": "==",
+"scene": "S_CURSE_YARD_DUNGEON",
+"obj": "O_HERO",
+"cell": "RAT2BIS"
+},
+{
+"type": 783,
+"id": 7537,
+"x": 949,
+"y": 3124,
+"plugs": [
+{
+"id": 7538,
+"type": 2
+},
+{
+"id": 7539,
+"type": 3,
+"trgs": [
+7541
+]
+}
+],
+"lock": true,
+"scene": "S_CURSE_YARD_DUNGEON",
+"obj": "O_HERO",
+"cell": "RAT2BIS_DIS",
+"straight": "False",
+"duration": "0",
+"easeIn": "True",
+"easeOut": "True"
+},
+{
+"type": 781,
+"id": 7540,
+"x": 1159,
+"y": 3125,
+"plugs": [
+{
+"id": 7541,
+"type": 2
+},
+{
+"id": 7542,
+"type": 3
+}
+],
+"dialog": "D_CURSE_YARD",
+"sentence": "14"
+},
+{
+"type": 1281,
+"id": 7546,
+"x": 744,
+"y": 3242,
+"plugs": [
+{
+"id": 7547,
+"type": 3,
+"trgs": [
+7549
+]
+}
+],
+"resolved": "#Kill_Curse_Mage",
+"varCmp": "==",
+"scene": "S_CURSE_YARD_DUNGEON",
+"obj": "O_HERO",
+"cell": "RAT2TRIS"
+},
+{
+"type": 783,
+"id": 7548,
+"x": 941,
+"y": 3242,
+"plugs": [
+{
+"id": 7549,
+"type": 2
+},
+{
+"id": 7550,
+"type": 3,
+"trgs": [
+7552
+]
+}
+],
+"lock": true,
+"scene": "S_CURSE_YARD_DUNGEON",
+"obj": "O_HERO",
+"cell": "RAT2TRIS_DIS",
+"straight": "False",
+"duration": "0",
+"easeIn": "True",
+"easeOut": "True"
+},
+{
+"type": 781,
+"id": 7551,
+"x": 1152,
+"y": 3242,
+"plugs": [
+{
+"id": 7552,
+"type": 2
+},
+{
+"id": 7553,
+"type": 3
+}
+],
+"dialog": "D_CURSE_YARD",
+"sentence": "16"
 }
 ]
 }
@@ -22753,9 +23019,217 @@
 "uid": "R_CAMPAIGN_AFTER",
 "graph": {
 "board": {
-"nextid": 960,
-"x": 434,
-"y": 274
+"nextid": 1104,
+"x": 826,
+"y": 617,
+"boxes": [
+{
+"type": 1290,
+"id": 962,
+"x": -746,
+"y": -227,
+"plugs": [
+{
+"id": 963,
+"type": 3,
+"trgs": [
+1070
+]
+}
+],
+"varCmp": "==",
+"obj": "O_GOLD_BLOCK_TREASURE",
+"obj2": "O_HOUSE"
+},
+{
+"type": 513,
+"id": 964,
+"comment": "Open",
+"x": -92,
+"y": -225,
+"plugs": [
+{
+"id": 965,
+"type": 2
+},
+{
+"id": 966,
+"type": 3,
+"trgs": [
+1031
+]
+}
+],
+"script": "set_default_anims S_CAMPAIGN_AFTER.O_HOUSE NEW",
+"plugCount": 1
+},
+{
+"type": 771,
+"id": 976,
+"x": 206,
+"y": -223,
+"plugs": [
+{
+"id": 977,
+"type": 2
+},
+{
+"id": 978,
+"type": 3,
+"trgs": [
+980
+]
+}
+],
+"lock": true,
+"duration": "5000"
+},
+{
+"type": 780,
+"id": 979,
+"x": 317,
+"y": -222,
+"plugs": [
+{
+"id": 980,
+"type": 2
+},
+{
+"id": 981,
+"type": 3
+}
+],
+"puzzle": "#End"
+},
+{
+"type": 780,
+"id": 982,
+"x": -224,
+"y": -226,
+"plugs": [
+{
+"id": 983,
+"type": 2
+},
+{
+"id": 984,
+"type": 3,
+"trgs": [
+965
+]
+}
+],
+"puzzle": "#New_House"
+},
+{
+"type": 513,
+"id": 1015,
+"comment": "DUMP",
+"x": -328,
+"y": -227,
+"plugs": [
+{
+"id": 1016,
+"type": 2
+},
+{
+"id": 1017,
+"type": 3,
+"trgs": [
+983
+]
+}
+],
+"script": "dump O_GOLD_BLOCK_TREASURE",
+"plugCount": 1
+},
+{
+"type": 781,
+"id": 1030,
+"x": 8,
+"y": -224,
+"plugs": [
+{
+"id": 1031,
+"type": 2
+},
+{
+"id": 1032,
+"type": 3,
+"trgs": [
+977
+]
+}
+],
+"dialog": "D_CAMPAIGN_AFTER",
+"sentence": "1"
+},
+{
+"type": 783,
+"id": 1069,
+"x": -532,
+"y": -227,
+"plugs": [
+{
+"id": 1070,
+"type": 2
+},
+{
+"id": 1071,
+"type": 3,
+"trgs": [
+1016
+]
+}
+],
+"lock": true,
+"scene": "S_CAMPAIGN_AFTER",
+"obj": "O_HERO",
+"cell": "HOME",
+"straight": "False",
+"duration": "0",
+"easeIn": "True",
+"easeOut": "True"
+},
+{
+"type": 1284,
+"id": 1090,
+"x": -745,
+"y": -373,
+"plugs": [
+{
+"id": 1091,
+"type": 3,
+"trgs": [
+1093
+]
+}
+],
+"resolved": "#Have_Clother_Full_Armed",
+"varCmp": "==",
+"scene": "S_CAMPAIGN_AFTER",
+"mode": "JUMP"
+},
+{
+"type": 513,
+"id": 1092,
+"comment": "Change Clother",
+"x": -535,
+"y": -372,
+"plugs": [
+{
+"id": 1093,
+"type": 2
+},
+{
+"id": 1094,
+"type": 3
+}
+],
+"script": "set_default_anims O_HERO GUARD",
+"plugCount": 1
+}
+]
 }
 }
 }
@@ -81929,7 +82403,7 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 15,
+"zoom": 10,
 "nextID": 36,
 "x": -362,
 "y": -68,
@@ -121145,10 +121619,10 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 35,
-"nextID": 16,
-"x": -75,
-"y": -87,
+"zoom": 30,
+"nextID": 17,
+"x": 225,
+"y": 328,
 "role": "R_CAMPAIGN"
 },
 "objects": [
@@ -129369,6 +129843,43 @@
 ],
 "x": 127,
 "y": 1292,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"uid": "O_WELL",
+"id": 16,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 2572,
+"y": 2201,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -250739,10 +251250,10 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 85,
-"nextID": 108,
-"x": 1124,
-"y": 92,
+"zoom": 30,
+"nextID": 110,
+"x": 338,
+"y": 180,
 "role": "R_CURSE_YARD_DUNGEON"
 },
 "objects": [
@@ -253874,190 +254385,6 @@
 "row": 15
 },
 {
-"col": 56,
-"row": 11
-},
-{
-"col": 56,
-"row": 12
-},
-{
-"col": 56,
-"row": 13
-},
-{
-"col": 56,
-"row": 14
-},
-{
-"col": 56,
-"row": 15
-},
-{
-"col": 57,
-"row": 11
-},
-{
-"col": 57,
-"row": 12
-},
-{
-"col": 57,
-"row": 13
-},
-{
-"col": 57,
-"row": 14
-},
-{
-"col": 57,
-"row": 15
-},
-{
-"col": 58,
-"row": 11
-},
-{
-"col": 58,
-"row": 12
-},
-{
-"col": 58,
-"row": 13
-},
-{
-"col": 58,
-"row": 14
-},
-{
-"col": 58,
-"row": 15
-},
-{
-"col": 59,
-"row": 8
-},
-{
-"col": 59,
-"row": 9
-},
-{
-"col": 59,
-"row": 10
-},
-{
-"col": 59,
-"row": 11
-},
-{
-"col": 59,
-"row": 12
-},
-{
-"col": 59,
-"row": 13
-},
-{
-"col": 59,
-"row": 14
-},
-{
-"col": 59,
-"row": 15
-},
-{
-"col": 60,
-"row": 8
-},
-{
-"col": 60,
-"row": 9
-},
-{
-"col": 60,
-"row": 10
-},
-{
-"col": 60,
-"row": 11
-},
-{
-"col": 60,
-"row": 12
-},
-{
-"col": 60,
-"row": 13
-},
-{
-"col": 60,
-"row": 14
-},
-{
-"col": 60,
-"row": 15
-},
-{
-"col": 61,
-"row": 11
-},
-{
-"col": 61,
-"row": 12
-},
-{
-"col": 61,
-"row": 13
-},
-{
-"col": 61,
-"row": 14
-},
-{
-"col": 61,
-"row": 15
-},
-{
-"col": 62,
-"row": 11
-},
-{
-"col": 62,
-"row": 12
-},
-{
-"col": 62,
-"row": 13
-},
-{
-"col": 62,
-"row": 14
-},
-{
-"col": 62,
-"row": 15
-},
-{
-"col": 63,
-"row": 11
-},
-{
-"col": 63,
-"row": 12
-},
-{
-"col": 63,
-"row": 13
-},
-{
-"col": 63,
-"row": 14
-},
-{
-"col": 63,
-"row": 15
-},
-{
 "col": 64,
 "row": 11
 },
@@ -259663,7 +259990,9 @@
 },
 {
 "col": 51,
-"row": 55
+"row": 55,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 52,
@@ -259695,7 +260024,9 @@
 },
 {
 "col": 52,
-"row": 55
+"row": 55,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 53,
@@ -259727,7 +260058,9 @@
 },
 {
 "col": 53,
-"row": 55
+"row": 55,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 54,
@@ -259759,7 +260092,9 @@
 },
 {
 "col": 54,
-"row": 55
+"row": 55,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 55,
@@ -259791,7 +260126,9 @@
 },
 {
 "col": 55,
-"row": 55
+"row": 55,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 56,
@@ -259823,7 +260160,9 @@
 },
 {
 "col": 56,
-"row": 55
+"row": 55,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 57,
@@ -259855,7 +260194,9 @@
 },
 {
 "col": 57,
-"row": 55
+"row": 55,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 58,
@@ -259887,7 +260228,9 @@
 },
 {
 "col": 58,
-"row": 55
+"row": 55,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 59,
@@ -259919,7 +260262,9 @@
 },
 {
 "col": 59,
-"row": 55
+"row": 55,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 60,
@@ -259947,11 +260292,14 @@
 },
 {
 "col": 60,
-"row": 54
+"row": 54,
+"name": "RAT2TRIS_DIS"
 },
 {
 "col": 60,
-"row": 55
+"row": 55,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 61,
@@ -259983,7 +260331,9 @@
 },
 {
 "col": 61,
-"row": 55
+"row": 55,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 62,
@@ -260015,7 +260365,9 @@
 },
 {
 "col": 62,
-"row": 55
+"row": 55,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 63,
@@ -260047,7 +260399,9 @@
 },
 {
 "col": 63,
-"row": 55
+"row": 55,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 64,
@@ -260079,7 +260433,9 @@
 },
 {
 "col": 64,
-"row": 55
+"row": 55,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 65,
@@ -260111,7 +260467,9 @@
 },
 {
 "col": 65,
-"row": 55
+"row": 55,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 66,
@@ -260143,7 +260501,9 @@
 },
 {
 "col": 66,
-"row": 55
+"row": 55,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 67,
@@ -260175,7 +260535,9 @@
 },
 {
 "col": 67,
-"row": 55
+"row": 55,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 68,
@@ -260207,7 +260569,9 @@
 },
 {
 "col": 68,
-"row": 55
+"row": 55,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 69,
@@ -262883,7 +263247,9 @@
 },
 {
 "col": 64,
-"row": 56
+"row": 56,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 64,
@@ -262915,7 +263281,9 @@
 },
 {
 "col": 65,
-"row": 56
+"row": 56,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 65,
@@ -262947,7 +263315,9 @@
 },
 {
 "col": 66,
-"row": 56
+"row": 56,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 66,
@@ -262979,7 +263349,9 @@
 },
 {
 "col": 67,
-"row": 56
+"row": 56,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 67,
@@ -263011,7 +263383,9 @@
 },
 {
 "col": 68,
-"row": 56
+"row": 56,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 68,
@@ -263043,7 +263417,9 @@
 },
 {
 "col": 56,
-"row": 56
+"row": 56,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 56,
@@ -263075,7 +263451,9 @@
 },
 {
 "col": 57,
-"row": 56
+"row": 56,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 57,
@@ -263107,7 +263485,9 @@
 },
 {
 "col": 58,
-"row": 56
+"row": 56,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 58,
@@ -263139,7 +263519,9 @@
 },
 {
 "col": 59,
-"row": 56
+"row": 56,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 59,
@@ -263171,7 +263553,9 @@
 },
 {
 "col": 60,
-"row": 56
+"row": 56,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 60,
@@ -263203,7 +263587,9 @@
 },
 {
 "col": 61,
-"row": 56
+"row": 56,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 61,
@@ -263231,7 +263617,9 @@
 },
 {
 "col": 62,
-"row": 56
+"row": 56,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 62,
@@ -263263,7 +263651,9 @@
 },
 {
 "col": 63,
-"row": 56
+"row": 56,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 63,
@@ -263295,7 +263685,9 @@
 },
 {
 "col": 51,
-"row": 56
+"row": 56,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 51,
@@ -263327,7 +263719,9 @@
 },
 {
 "col": 52,
-"row": 56
+"row": 56,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 52,
@@ -263359,7 +263753,9 @@
 },
 {
 "col": 53,
-"row": 56
+"row": 56,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 53,
@@ -263391,7 +263787,9 @@
 },
 {
 "col": 54,
-"row": 56
+"row": 56,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 54,
@@ -263423,7 +263821,9 @@
 },
 {
 "col": 55,
-"row": 56
+"row": 56,
+"name": "RAT2TRIS",
+"event": true
 },
 {
 "col": 55,
@@ -264225,23 +264625,33 @@
 },
 {
 "col": 79,
-"row": 67
+"row": 67,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 79,
-"row": 68
+"row": 68,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 79,
-"row": 69
+"row": 69,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 79,
-"row": 70
+"row": 70,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 79,
-"row": 71
+"row": 71,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 72,
@@ -264469,35 +264879,51 @@
 },
 {
 "col": 79,
-"row": 72
+"row": 72,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 79,
-"row": 73
+"row": 73,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 79,
-"row": 74
+"row": 74,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 79,
-"row": 75
+"row": 75,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 79,
-"row": 76
+"row": 76,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 79,
-"row": 77
+"row": 77,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 79,
-"row": 78
+"row": 78,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 79,
-"row": 79
+"row": 79,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 72,
@@ -264641,23 +265067,33 @@
 },
 {
 "col": 79,
-"row": 80
+"row": 80,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 79,
-"row": 81
+"row": 81,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 79,
-"row": 82
+"row": 82,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 79,
-"row": 83
+"row": 83,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 79,
-"row": 84
+"row": 84,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 64,
@@ -277614,7 +278050,8 @@
 "row": 124,
 "linkSelObj": {
 "obj": "O_GRASSE_CURSE_YARD"
-}
+},
+"name": "GRASS_TALK"
 },
 {
 "col": 152,
@@ -281734,23 +282171,33 @@
 },
 {
 "col": 80,
-"row": 80
+"row": 80,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 80,
-"row": 81
+"row": 81,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 80,
-"row": 82
+"row": 82,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 80,
-"row": 83
+"row": 83,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 80,
-"row": 84
+"row": 84,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 81,
@@ -281894,35 +282341,51 @@
 },
 {
 "col": 80,
-"row": 72
+"row": 72,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 80,
-"row": 73
+"row": 73,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 80,
-"row": 74
+"row": 74,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 80,
-"row": 75
+"row": 75,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 80,
-"row": 76
+"row": 76,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 80,
-"row": 77
+"row": 77,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 80,
-"row": 78
+"row": 78,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 80,
-"row": 79
+"row": 79,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 81,
@@ -281946,7 +282409,8 @@
 },
 {
 "col": 81,
-"row": 77
+"row": 77,
+"name": "RAT2BIS_DIS"
 },
 {
 "col": 81,
@@ -282150,23 +282614,33 @@
 },
 {
 "col": 80,
-"row": 67
+"row": 67,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 80,
-"row": 68
+"row": 68,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 80,
-"row": 69
+"row": 69,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 80,
-"row": 70
+"row": 70,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 80,
-"row": 71
+"row": 71,
+"name": "RAT2BIS",
+"event": true
 },
 {
 "col": 81,
@@ -298714,7 +299188,10 @@
 },
 {
 "col": 160,
-"row": 48
+"row": 48,
+"linkSelObj": {
+"obj": "O_SHEILD_CURSE_YARD"
+}
 },
 {
 "col": 160,
@@ -305481,7 +305958,10 @@
 },
 {
 "col": 243,
-"row": 125
+"row": 125,
+"linkSelObj": {
+"obj": "O_POTION_GREEN"
+}
 },
 {
 "col": 243,
@@ -305613,20 +306093,6 @@
 {
 "col": 239,
 "row": 116
-},
-{
-"col": 59,
-"row": 7,
-"linkSelObj": {
-"obj": "O_DOOR_YARD"
-}
-},
-{
-"col": 60,
-"row": 7,
-"linkSelLabel": {
-"label": "INTERIOR"
-}
 },
 {
 "col": 227,
@@ -313496,7 +313962,6 @@
 "",
 ""
 ],
-"visible": 2,
 "x": 1153,
 "y": 1156,
 "parallax": 100,
@@ -313534,7 +313999,6 @@
 "",
 ""
 ],
-"visible": 2,
 "x": 902,
 "y": 895,
 "parallax": 100,
@@ -313954,7 +314418,7 @@
 "",
 ""
 ],
-"visible": 1,
+"visible": 2,
 "x": 2449,
 "y": 628,
 "parallax": 100,
@@ -313981,6 +314445,17 @@
 {},
 {},
 {}
+],
+"depths": [
+{
+"a": 100,
+"b": 100
+},
+{
+"y": 2304,
+"a": 100,
+"b": 100
+}
 ]
 },
 {
@@ -314069,6 +314544,80 @@
 "visible": 2,
 "x": 3454,
 "y": 1415,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"uid": "O_SHEILD",
+"id": 108,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 3994,
+"y": 2749,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"uid": "O_COFFIN_CURSE_YARD",
+"id": 109,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 899,
+"y": 128,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -314281,8 +314830,8 @@
 },
 "zoom": 35,
 "nextID": 44,
-"x": 214,
-"y": -31,
+"x": 811,
+"y": 231,
 "role": "R_CURSE_GRAVEYARD"
 },
 "sid": 251,
@@ -356963,10 +357512,11 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 25,
-"nextID": 16,
-"x": -194,
-"y": -215
+"zoom": 100,
+"nextID": 18,
+"x": 366,
+"y": 618,
+"role": "R_CAMPAIGN_AFTER"
 },
 "objects": [
 {
@@ -357042,7 +357592,10 @@
 {
 "col": 60,
 "row": 72,
-"name": "HOME"
+"name": "HOME",
+"linkSelObj": {
+"obj": "O_HOUSE"
+}
 },
 {
 "col": 60,
@@ -357090,15 +357643,11 @@
 },
 {
 "col": 57,
-"row": 83,
-"name": "HOME",
-"event": true
+"row": 83
 },
 {
 "col": 57,
-"row": 84,
-"name": "HOME",
-"event": true
+"row": 84
 },
 {
 "col": 58,
@@ -365114,6 +365663,80 @@
 ],
 "x": 128,
 "y": 1295,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"uid": "O_WELL",
+"id": 16,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 2996,
+"y": 2980,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"uid": "O_HOUSE",
+"id": 17,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 792,
+"y": 592,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -378742,6 +379365,234 @@
 },
 "sid": 279,
 "uid": "O_WELL_CAMPAIGN_AFTER"
+},
+{
+"sid": 280,
+"uid": "O_HOUSE",
+"object": {
+"bbox": true,
+"width": 384,
+"height": 640,
+"x": 23,
+"y": 79,
+"maxScale": 100,
+"title": {
+"fr": "Maison de Léo"
+}
+},
+"anims": [
+{
+"name": "STOP",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT",
+"frames": [
+{
+"md5": "5331536a8e3953deb3024b5d8bbf7cb0",
+"ytrim": 384,
+"wtrim": 384,
+"htrim": 256,
+"xdraw": -2,
+"ydraw": 382,
+"wdraw": 388,
+"hdraw": 260
+}
+],
+"count": 1
+},
+{
+"name": "RIGHT",
+"count": 1,
+"frames": [
+{
+"md5": "5331536a8e3953deb3024b5d8bbf7cb0",
+"ytrim": 384,
+"wtrim": 384,
+"htrim": 256,
+"xdraw": -2,
+"ydraw": 382,
+"wdraw": 388,
+"hdraw": 260
+}
+]
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"loopCount": -1,
+"flip": true
+},
+{
+"name": "WALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"loopCount": -1
+},
+{
+"name": "TALK",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT"
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+],
+"loopCount": -1
+},
+{
+"name": "NEW",
+"fps": 6,
+"action": -1,
+"loopRangeMax": -1,
+"dirs": [
+{
+"name": "LEFT"
+},
+{
+"name": "RIGHT",
+"count": 1,
+"frames": [
+{
+"md5": "8d38582799a21cfe9ee4a15359690e70",
+"wtrim": 384,
+"htrim": 640,
+"xdraw": -2,
+"ydraw": -2,
+"wdraw": 388,
+"hdraw": 644
+}
+]
+},
+{
+"name": "FRONT"
+},
+{
+"name": "BACK"
+},
+{
+"name": "FL"
+},
+{
+"name": "FR"
+},
+{
+"name": "BL"
+},
+{
+"name": "BR"
+}
+]
+}
+],
+"packset": {
+"frames": [
+{
+"index": 2,
+"index2": -1,
+"x": 2,
+"y": 2,
+"w": 384,
+"h": 640
+},
+{
+"index2": -1,
+"x": 390,
+"y": 2,
+"w": 256,
+"h": 384,
+"rotated": true
+},
+{
+"index": 1,
+"flipped": true
+}
+],
+"packs": [
+{
+"count": 3
+}
+]
+}
+},
+{
+"object": {
+"bbox": true,
+"maxScale": -1,
+"title": {
+"fr": "Cerceuil"
+},
+"clone": "O_COFFIN"
+},
+"sid": 281,
+"uid": "O_COFFIN_CURSE_YARD"
 }
 ],
 "players": [
@@ -378756,7 +379607,7 @@
 }
 ],
 "meta": {
-"nextAssetID": 280
+"nextAssetID": 283
 },
 "dialogs": [
 {
@@ -380448,7 +381299,7 @@
 "text": {
 "fr": "Oooohhhhhhhhhhhhhhhhh, Hhhhhhiiiiiiiiiiiiiiiiiii"
 },
-"speaker": "O_SPECTRUM_CHAMBER"
+"speaker": "O_SPECTRUM_CURSE_YARD"
 }
 ],
 "speaker": "O_HERO"
@@ -380488,7 +381339,7 @@
 }
 ]
 },
-"nextID": 36
+"nextID": 38
 }
 },
 {
@@ -380544,6 +381395,24 @@
 ]
 },
 "nextID": 7
+}
+},
+{
+"sid": 282,
+"uid": "D_CAMPAIGN_AFTER",
+"dialog": {
+"sentence": {
+"sentences": [
+{
+"id": 1,
+"text": {
+"fr": "Oh cette belle maison !!!"
+},
+"speaker": "O_HERO"
+}
+]
+},
+"nextID": 2
 }
 }
 ]
