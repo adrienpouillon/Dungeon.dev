@@ -137,7 +137,7 @@
 "scenario": {
 "board": {
 "nextid": 313,
-"x": -10794,
+"x": 764,
 "boxes": [
 {
 "type": 257,
@@ -154,8 +154,7 @@
 ]
 }
 ],
-"exit": "// Assign an object to the player\r\ncontrol P_HERO O_HERO\r\n// Change the current player\r\nswitch P_HERO\r\n// Change the current scene\r\njump S_CAMPAIGN",
-"resolved": true
+"exit": "// Assign an object to the player\r\ncontrol P_HERO O_HERO\r\n// Change the current player\r\nswitch P_HERO\r\n// Change the current scene\r\njump S_CAMPAIGN"
 },
 {
 "type": 260,
@@ -188,8 +187,7 @@
 18
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 258,
@@ -209,8 +207,7 @@
 9
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 262,
@@ -230,8 +227,7 @@
 21
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -251,8 +247,7 @@
 15
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -273,8 +268,7 @@
 ]
 }
 ],
-"exit": "jump S_VILLAGE_TOWN",
-"resolved": true
+"exit": "jump S_VILLAGE_TOWN"
 },
 {
 "type": 258,
@@ -295,8 +289,7 @@
 45
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 262,
@@ -316,8 +309,7 @@
 42
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -337,8 +329,7 @@
 36
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -358,8 +349,7 @@
 36
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -379,8 +369,7 @@
 39
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -400,8 +389,7 @@
 27
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -422,8 +410,7 @@
 ]
 }
 ],
-"exit": "jump S_ENTRANCE\r\nsilent_take P_HERO O_KNIFE_TOWN",
-"resolved": true
+"exit": "jump S_ENTRANCE\r\nsilent_take P_HERO O_KNIFE_TOWN"
 },
 {
 "type": 256,
@@ -444,8 +431,7 @@
 57
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -465,8 +451,7 @@
 39
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -486,8 +471,7 @@
 30
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 258,
@@ -507,8 +491,7 @@
 66
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 262,
@@ -548,8 +531,7 @@
 78
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 262,
@@ -569,8 +551,7 @@
 102
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 258,
@@ -590,8 +571,7 @@
 93
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 262,
@@ -611,8 +591,7 @@
 132
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -632,8 +611,7 @@
 81
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -653,8 +631,7 @@
 84
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -674,8 +651,7 @@
 69
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -695,8 +671,7 @@
 99
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -717,8 +692,7 @@
 90
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -739,8 +713,7 @@
 111
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -760,8 +733,7 @@
 105
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -782,8 +754,7 @@
 ]
 }
 ],
-"exit": "jump S_YARD_DUNGEON\r\ndump O_KNIFE_TOWN",
-"resolved": true
+"exit": "jump S_YARD_DUNGEON\r\ndump O_KNIFE_TOWN"
 },
 {
 "type": 256,
@@ -803,8 +774,7 @@
 117
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -824,8 +794,7 @@
 159
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -845,8 +814,7 @@
 114
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -866,8 +834,7 @@
 117
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -887,8 +854,7 @@
 135
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -908,8 +874,7 @@
 75
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -929,8 +894,7 @@
 147
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 258,
@@ -950,8 +914,7 @@
 138
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 262,
@@ -971,8 +934,7 @@
 162
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -993,7 +955,7 @@
 ]
 }
 ],
-"resolved": true
+"exit": "hide S_GRAVEYARD.O_STAIR"
 },
 {
 "type": 256,
@@ -1013,8 +975,7 @@
 120
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1034,8 +995,7 @@
 141
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1055,8 +1015,7 @@
 144
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1076,8 +1035,7 @@
 123
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1097,8 +1055,7 @@
 129
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1118,8 +1075,7 @@
 108
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 258,
@@ -1140,8 +1096,7 @@
 168
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 262,
@@ -1161,8 +1116,7 @@
 195
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1182,8 +1136,7 @@
 165
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1204,8 +1157,7 @@
 ]
 }
 ],
-"exit": "jump S_CHAMBER\r\nhide S_YARD_DUNGEON.O_DOOR_YARD",
-"resolved": true
+"exit": "jump S_CHAMBER\r\nhide S_YARD_DUNGEON.O_DOOR_YARD\r\nhide S_CHAMBER.O_COFFIN_CHAMBER"
 },
 {
 "type": 256,
@@ -1225,8 +1177,7 @@
 108
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1246,8 +1197,7 @@
 186
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1267,8 +1217,7 @@
 192
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1308,8 +1257,7 @@
 171
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 262,
@@ -1329,8 +1277,7 @@
 153
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 258,
@@ -1353,8 +1300,7 @@
 237
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 262,
@@ -1374,8 +1320,7 @@
 204
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1396,8 +1341,7 @@
 ]
 }
 ],
-"exit": "jump S_TREASURE",
-"resolved": true
+"exit": "jump S_TREASURE"
 },
 {
 "type": 258,
@@ -1418,8 +1362,7 @@
 ]
 }
 ],
-"exit": "hide S_CURSE_YARD_DUNGEON.O_RAT_CURSE_YARD2\r\nhide S_CURSE_YARD_DUNGEON.O_RAT_CURSE_YARD3",
-"resolved": true
+"exit": "hide S_CURSE_YARD_DUNGEON.O_RAT_CURSE_YARD2\r\nhide S_CURSE_YARD_DUNGEON.O_RAT_CURSE_YARD3"
 },
 {
 "type": 262,
@@ -1439,8 +1382,7 @@
 213
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1460,8 +1402,7 @@
 198
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1482,8 +1423,7 @@
 ]
 }
 ],
-"exit": "show S_CURSE_YARD_DUNGEON.O_RAT_CURSE_YARD2\r\nshow S_CURSE_YARD_DUNGEON.O_RAT_CURSE_YARD3",
-"resolved": true
+"exit": "show S_CURSE_YARD_DUNGEON.O_RAT_CURSE_YARD2\r\nshow S_CURSE_YARD_DUNGEON.O_RAT_CURSE_YARD3"
 },
 {
 "type": 256,
@@ -1505,8 +1445,7 @@
 ]
 }
 ],
-"exit": "show S_CURSE_YARD_DUNGEON.O_TOMBE_STONE_CURSE_YARD",
-"resolved": true
+"exit": "show S_CURSE_YARD_DUNGEON.O_TOMBE_STONE_CURSE_YARD"
 },
 {
 "type": 256,
@@ -1527,8 +1466,7 @@
 ]
 }
 ],
-"exit": "jump S_CAMPAIGN_AFTER\r\ntake P_HERO O_GOLD_BLOCK_TREASURE",
-"resolved": true
+"exit": "jump S_CAMPAIGN_AFTER\r\n// "
 },
 {
 "type": 258,
@@ -1588,8 +1526,7 @@
 246
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1610,8 +1547,7 @@
 308
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1632,8 +1568,7 @@
 225
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1653,8 +1588,7 @@
 192
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1674,8 +1608,7 @@
 192
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1695,8 +1628,7 @@
 192
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1716,8 +1648,7 @@
 267
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1737,8 +1668,7 @@
 288
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1758,8 +1688,7 @@
 228
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 258,
@@ -1780,8 +1709,7 @@
 243
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 262,
@@ -1801,8 +1729,7 @@
 288
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1823,8 +1750,7 @@
 240
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1844,8 +1770,7 @@
 294
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1865,8 +1790,7 @@
 276
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1886,8 +1810,7 @@
 294
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1907,8 +1830,7 @@
 255
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1928,8 +1850,7 @@
 273
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1950,8 +1871,7 @@
 ]
 }
 ],
-"exit": "show S_CURSE_YARD_DUNGEON.O_SHEILD_CURSE_YARD",
-"resolved": true
+"exit": "show S_CURSE_YARD_DUNGEON.O_SHEILD_CURSE_YARD"
 },
 {
 "type": 256,
@@ -1971,8 +1891,7 @@
 285
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -1992,8 +1911,7 @@
 201
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -2014,8 +1932,7 @@
 264
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -2035,8 +1952,7 @@
 297
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -2056,8 +1972,7 @@
 279
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -2077,8 +1992,7 @@
 210
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 260,
@@ -2131,8 +2045,7 @@
 282
 ]
 }
-],
-"resolved": true
+]
 },
 {
 "type": 256,
@@ -4274,9 +4187,9 @@
 "uid": "R_YARD_DUNGEON",
 "graph": {
 "board": {
-"nextid": 13599,
-"x": 168,
-"y": -4809,
+"nextid": 13812,
+"x": 172,
+"y": -2024,
 "boxes": [
 {
 "type": 1285,
@@ -5140,7 +5053,7 @@
 "type": 256,
 "id": 464,
 "resize": true,
-"width": 1004,
+"width": 814,
 "height": 1035,
 "x": -9,
 "y": 2225,
@@ -5228,6 +5141,7 @@
 ]
 }
 ],
+"unresolved": "#Talk_Mage",
 "varCmp": "==",
 "scene": "S_YARD_DUNGEON",
 "obj": "O_MAGE_YARD"
@@ -5334,33 +5248,6 @@
 "sentence": "6"
 },
 {
-"type": 783,
-"id": 599,
-"x": 434,
-"y": 2660,
-"plugs": [
-{
-"id": 600,
-"type": 2
-},
-{
-"id": 601,
-"type": 3,
-"trgs": [
-1649
-]
-}
-],
-"lock": true,
-"scene": "S_YARD_DUNGEON",
-"obj": "O_MAGE_YARD_DOOR",
-"cell": "MAGE_WALK",
-"straight": "False",
-"duration": "0",
-"easeIn": "True",
-"easeOut": "True"
-},
-{
 "type": 786,
 "id": 602,
 "x": 246,
@@ -5374,7 +5261,7 @@
 "id": 604,
 "type": 3,
 "trgs": [
-600
+13807
 ]
 }
 ],
@@ -8059,23 +7946,6 @@
 "puzzle": "#Have_Clother_Armored"
 },
 {
-"type": 780,
-"id": 1648,
-"x": 638,
-"y": 2660,
-"plugs": [
-{
-"id": 1649,
-"type": 2
-},
-{
-"id": 1650,
-"type": 3
-}
-],
-"puzzle": "#Talk_Mage"
-},
-{
 "type": 1285,
 "id": 1651,
 "x": 12,
@@ -8582,7 +8452,7 @@
 }
 ],
 "dialog": "D_YARD",
-"sentence": "22"
+"sentence": "26"
 },
 {
 "type": 1287,
@@ -9187,6 +9057,50 @@
 }
 ],
 "puzzle": "#Go_To_Treasure"
+},
+{
+"type": 780,
+"id": 13806,
+"x": 420,
+"y": 2658,
+"plugs": [
+{
+"id": 13807,
+"type": 2
+},
+{
+"id": 13808,
+"type": 3,
+"trgs": [
+13810
+]
+}
+],
+"puzzle": "#Talk_Mage"
+},
+{
+"type": 783,
+"id": 13809,
+"x": 564,
+"y": 2657,
+"plugs": [
+{
+"id": 13810,
+"type": 2
+},
+{
+"id": 13811,
+"type": 3
+}
+],
+"lock": true,
+"scene": "S_YARD_DUNGEON",
+"obj": "O_MAGE_YARD_DOOR",
+"cell": "MAGE_WALK",
+"straight": "False",
+"duration": "0",
+"easeIn": "True",
+"easeOut": "True"
 }
 ]
 }
@@ -15776,9 +15690,9 @@
 "uid": "R_CURSE_YARD_DUNGEON",
 "graph": {
 "board": {
-"nextid": 8598,
-"x": 116,
-"y": 427,
+"nextid": 8859,
+"x": -95,
+"y": -8861,
 "boxes": [
 {
 "type": 257,
@@ -21332,7 +21246,7 @@
 }
 ],
 "dialog": "D_CURSE_YARD",
-"sentence": "33"
+"sentence": "38"
 },
 {
 "type": 783,
@@ -21377,7 +21291,7 @@
 }
 ],
 "dialog": "D_CURSE_YARD",
-"sentence": "35"
+"sentence": "39"
 },
 {
 "type": 786,
@@ -180058,7 +179972,7 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 25,
+"zoom": 65,
 "nextID": 29,
 "x": -227,
 "y": -298,
@@ -180657,8 +180571,7 @@
 {},
 {},
 {}
-],
-"visible": 2
+]
 },
 {
 "uid": "O_BOX",
@@ -222727,10 +222640,10 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 45,
+"zoom": 30,
 "nextID": 17,
-"x": -114,
-"y": -48,
+"x": -51,
+"y": 34,
 "role": "R_CHAMBER"
 },
 "objects": [
@@ -235378,7 +235291,6 @@
 "",
 ""
 ],
-"visible": 2,
 "x": 1032,
 "y": 770,
 "parallax": 100,
@@ -251250,10 +251162,10 @@
 "opacitySpeed": 100
 }
 },
-"zoom": 30,
-"nextID": 110,
-"x": 338,
-"y": 180,
+"zoom": 15,
+"nextID": 111,
+"x": -8,
+"y": -27,
 "role": "R_CURSE_YARD_DUNGEON"
 },
 "objects": [
@@ -314618,6 +314530,43 @@
 ],
 "x": 899,
 "y": 128,
+"parallax": 100,
+"lightAmbient": 255,
+"lightDiffuse": 16777215,
+"lightAngle": 30,
+"lightDist": -1,
+"grids": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+],
+"paths": [
+{},
+{},
+{},
+{},
+{},
+{},
+{},
+{}
+]
+},
+{
+"uid": "O_COFFIN",
+"id": 110,
+"tags": [
+"",
+"",
+"",
+""
+],
+"x": 4161,
+"y": 2739,
 "parallax": 100,
 "lightAmbient": 255,
 "lightDiffuse": 16777215,
@@ -381336,10 +381285,27 @@
 "exit": true
 }
 ]
+},
+{
+"id": 38,
+"text": {
+"fr": "Je peux passer ?"
+},
+"speaker": "O_HERO",
+"sentences": [
+{
+"id": 39,
+"text": {
+"fr": "Tu es prisionnier de ce donjon !!!"
+},
+"speaker": "O_GUARD_CURSE_CURSE_YARD",
+"exit": true
+}
+]
 }
 ]
 },
-"nextID": 38
+"nextID": 40
 }
 },
 {
