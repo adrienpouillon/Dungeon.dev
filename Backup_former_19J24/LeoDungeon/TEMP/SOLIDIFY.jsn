@@ -1,0 +1,664 @@
+{
+"assets": [
+{
+"path": "asset\\object\\o_anvil\\pack\\0000.png",
+"md5": "926fcde7cc8c780ccf9a49e802f56c45"
+},
+{
+"path": "asset\\object\\o_axe\\icon\\0.png",
+"md5": "c058cacc3a3896efc5aa12aeceabf90f"
+},
+{
+"path": "asset\\object\\o_axe\\pack\\0000.png",
+"md5": "b6548b71668c12eef4af2288bb14e12b"
+},
+{
+"path": "asset\\object\\o_barn\\pack\\0000.png",
+"md5": "618d78da989d6f0d76b26de6fab3c39b"
+},
+{
+"path": "asset\\object\\o_barrel\\pack\\0000.png",
+"md5": "841436dc4a5d3b4b40821064820a1bb4"
+},
+{
+"path": "asset\\object\\o_bat\\pack\\0000.png",
+"md5": "b4aacc155cd18626bd272ba272d43277"
+},
+{
+"path": "asset\\object\\o_bomb\\icon\\0.png",
+"md5": "facd87adaa6455810bfab5733437cb94"
+},
+{
+"path": "asset\\object\\o_bomb\\pack\\0000.png",
+"md5": "b631ee2f5f60cc19a28a885b2b024925"
+},
+{
+"path": "asset\\object\\o_bow\\icon\\0.png",
+"md5": "bb07c3e312aa1e1fcebc9188f7185a45"
+},
+{
+"path": "asset\\object\\o_bow\\pack\\0000.png",
+"md5": "c4f03818512e3db311d601a00173a8b9"
+},
+{
+"path": "asset\\object\\o_box\\pack\\0000.png",
+"md5": "23368299823a9c767749f65cf1832f56"
+},
+{
+"path": "asset\\object\\o_bucket\\icon\\0.png",
+"md5": "991fc5e59e07ccf6fc0e4e6b2df640b9"
+},
+{
+"path": "asset\\object\\o_bucket\\icon\\1.png",
+"md5": "a9e05d44491b18f6dcdc59d288d43449"
+},
+{
+"path": "asset\\object\\o_bucket\\pack\\0000.png",
+"md5": "6df98967e455f40ac982a7156135db36"
+},
+{
+"path": "asset\\object\\o_bucket\\pack\\0001.png",
+"md5": "9d0fc0090364cfed2406d2d92fc05f6d"
+},
+{
+"path": "asset\\object\\o_bucket_town\\icon\\0.png",
+"md5": "991fc5e59e07ccf6fc0e4e6b2df640b9"
+},
+{
+"path": "asset\\object\\o_bucket_town\\icon\\1.png",
+"md5": "a9e05d44491b18f6dcdc59d288d43449"
+},
+{
+"path": "asset\\object\\o_bucket_town\\pack\\0000.png",
+"md5": "6df98967e455f40ac982a7156135db36"
+},
+{
+"path": "asset\\object\\o_bucket_town\\pack\\0001.png",
+"md5": "9d0fc0090364cfed2406d2d92fc05f6d"
+},
+{
+"path": "asset\\object\\o_bucket_water\\icon\\0.png",
+"md5": "a9e05d44491b18f6dcdc59d288d43449"
+},
+{
+"path": "asset\\object\\o_bucket_water\\icon\\1.png",
+"md5": "991fc5e59e07ccf6fc0e4e6b2df640b9"
+},
+{
+"path": "asset\\object\\o_bucket_water\\pack\\0000.png",
+"md5": "9d0fc0090364cfed2406d2d92fc05f6d"
+},
+{
+"path": "asset\\object\\o_bucket_water_town\\icon\\0.png",
+"md5": "a9e05d44491b18f6dcdc59d288d43449"
+},
+{
+"path": "asset\\object\\o_bucket_water_town\\icon\\1.png",
+"md5": "991fc5e59e07ccf6fc0e4e6b2df640b9"
+},
+{
+"path": "asset\\object\\o_bucket_water_town\\pack\\0000.png",
+"md5": "6df98967e455f40ac982a7156135db36"
+},
+{
+"path": "asset\\object\\o_bucket_water_town\\pack\\0001.png",
+"md5": "9d0fc0090364cfed2406d2d92fc05f6d"
+},
+{
+"path": "asset\\object\\o_bundle\\pack\\0000.png",
+"md5": "481a203e3b4d8d0b5e32507b954c260d"
+},
+{
+"path": "asset\\object\\o_chest\\pack\\0000.png",
+"md5": "d7c704df8dce4c6792ca8fdb5a00c2c4"
+},
+{
+"path": "asset\\object\\o_clother\\icon\\0.png",
+"md5": "cc2551bc2c1ccd0565941cde644c0257"
+},
+{
+"path": "asset\\object\\o_clother\\pack\\0000.png",
+"md5": "21a3b7d38b9f10fed2bbfaddbadaed0b"
+},
+{
+"path": "asset\\object\\o_clother_armed\\icon\\0.png",
+"md5": "2fb6b3adcae725d5b1a578dabbc33b94"
+},
+{
+"path": "asset\\object\\o_clother_armed\\pack\\0000.png",
+"md5": "cc6a1cc08543aeb0548ef9ab062dd52a"
+},
+{
+"path": "asset\\object\\o_clother_armored\\icon\\0.png",
+"md5": "39bbdef782128c037df2c80c0ea782e0"
+},
+{
+"path": "asset\\object\\o_clother_armored\\pack\\0000.png",
+"md5": "096289862f9b6f5357b93546f1b43b2f"
+},
+{
+"path": "asset\\object\\o_clother_full_armed\\icon\\0.png",
+"md5": "0e3d5175fbf90f96bb05d33e725a4b2e"
+},
+{
+"path": "asset\\object\\o_clother_full_armed\\pack\\0000.png",
+"md5": "4082889ba53609f88cc9a281f0304305"
+},
+{
+"path": "asset\\object\\o_clother_sporty\\icon\\0.png",
+"md5": "c1c2744660114e55ac36cf38d83cbd36"
+},
+{
+"path": "asset\\object\\o_clother_sporty\\pack\\0000.png",
+"md5": "d37b6e71e985b22df2d9c2371c8c556f"
+},
+{
+"path": "asset\\object\\o_coffin\\icon\\0.png",
+"md5": "7930c96bf7d5f6c01a2d29dd22d498b9"
+},
+{
+"path": "asset\\object\\o_coffin\\pack\\0000.png",
+"md5": "f93fb98a1e9a435da00c9b79084f2880"
+},
+{
+"path": "asset\\object\\o_coin\\icon\\0.png",
+"md5": "37dc617222dbd0dceece40eea2b8218c"
+},
+{
+"path": "asset\\object\\o_coin\\pack\\0000.png",
+"md5": "211edae052666b730e70f336fdda97f3"
+},
+{
+"path": "asset\\object\\o_coin_treasure1\\icon\\0.png",
+"md5": "37dc617222dbd0dceece40eea2b8218c"
+},
+{
+"path": "asset\\object\\o_coin_treasure1\\pack\\0000.png",
+"md5": "211edae052666b730e70f336fdda97f3"
+},
+{
+"path": "asset\\object\\o_coin_treasure2\\icon\\0.png",
+"md5": "37dc617222dbd0dceece40eea2b8218c"
+},
+{
+"path": "asset\\object\\o_coin_treasure2\\pack\\0000.png",
+"md5": "211edae052666b730e70f336fdda97f3"
+},
+{
+"path": "asset\\object\\o_coin_treasure3\\icon\\0.png",
+"md5": "37dc617222dbd0dceece40eea2b8218c"
+},
+{
+"path": "asset\\object\\o_coin_treasure3\\pack\\0000.png",
+"md5": "211edae052666b730e70f336fdda97f3"
+},
+{
+"path": "asset\\object\\o_coin_treasure4\\icon\\0.png",
+"md5": "37dc617222dbd0dceece40eea2b8218c"
+},
+{
+"path": "asset\\object\\o_coin_treasure4\\pack\\0000.png",
+"md5": "211edae052666b730e70f336fdda97f3"
+},
+{
+"path": "asset\\object\\o_cyclops\\pack\\0000.png",
+"md5": "32b98facb2e14aca37224c0a32ccfa4d"
+},
+{
+"path": "asset\\object\\o_door\\pack\\0000.png",
+"md5": "ffa6ed566dcfd9b11c62d0f84a0d4f38"
+},
+{
+"path": "asset\\object\\o_double_axe\\icon\\0.png",
+"md5": "4b817ba082d8c197a0011336053196c5"
+},
+{
+"path": "asset\\object\\o_double_axe\\pack\\0000.png",
+"md5": "0da4f6fbd011d63690ad155a293f35b5"
+},
+{
+"path": "asset\\object\\o_fontaine_activate\\pack\\0000.png",
+"md5": "3924f1470a9e435e13edb683eae633de"
+},
+{
+"path": "asset\\object\\o_fountain\\pack\\0000.png",
+"md5": "233403fe46a92f1b45742eb38a21d3c4"
+},
+{
+"path": "asset\\object\\o_ghost\\pack\\0000.png",
+"md5": "631aaf22c56e458bd12b4bc42a539dfc"
+},
+{
+"path": "asset\\object\\o_gold_block\\icon\\0.png",
+"md5": "a3b9b40872e3247b649e7d3b8e2defbf"
+},
+{
+"path": "asset\\object\\o_gold_block\\pack\\0000.png",
+"md5": "b72f617d9a189cf6815bcbc300506be6"
+},
+{
+"path": "asset\\object\\o_grasse\\pack\\0000.png",
+"md5": "620920a9580f8ddddf49e7ab8114a360"
+},
+{
+"path": "asset\\object\\o_grasse_curse_yard\\pack\\0000.png",
+"md5": "620920a9580f8ddddf49e7ab8114a360"
+},
+{
+"path": "asset\\object\\o_grave\\pack\\0000.png",
+"md5": "d95b5d8f0a45224410b748723c535388"
+},
+{
+"path": "asset\\object\\o_grid\\pack\\0000.png",
+"md5": "0ff46e57e83bb5a33841691afd1e83b8"
+},
+{
+"path": "asset\\object\\o_guard_curse\\pack\\0000.png",
+"md5": "283ec8d6f293976fa896124d803d55bc"
+},
+{
+"path": "asset\\object\\o_guard1\\pack\\0000.png",
+"md5": "86cf3fe74cb67783a156b36c5c78555a"
+},
+{
+"path": "asset\\object\\o_guard2\\pack\\0000.png",
+"md5": "2f3bf52687440b99a5cd7c9a86d057fc"
+},
+{
+"path": "asset\\object\\o_guard2_campaign\\pack\\0000.png",
+"md5": "e8712af6735f254df7d53dd6afa436ed"
+},
+{
+"path": "asset\\object\\o_guard3\\pack\\0000.png",
+"md5": "df810d70bbda7b1d2a1a3523f64d9617"
+},
+{
+"path": "asset\\object\\o_guard3_village\\pack\\0000.png",
+"md5": "df810d70bbda7b1d2a1a3523f64d9617"
+},
+{
+"path": "asset\\object\\o_hammer\\icon\\0.png",
+"md5": "9c56a5904a6f54159e111cbb594074e4"
+},
+{
+"path": "asset\\object\\o_hammer\\pack\\0000.png",
+"md5": "2bcb829861c25e7caedac551a6f748b5"
+},
+{
+"path": "asset\\object\\o_harrow\\pack\\0000.png",
+"md5": "0cc53efe51ab8e6bb49fb47ce539b070"
+},
+{
+"path": "asset\\object\\o_hero\\pack\\0000.png",
+"md5": "550cde058f5961cab52b86ab082a1294"
+},
+{
+"path": "asset\\object\\o_hero\\pack\\0001.png",
+"md5": "bef2342724bdffb3f34f3937b00e5a23"
+},
+{
+"path": "asset\\object\\o_hoe\\icon\\0.png",
+"md5": "6b80c2005086b02fb99c3f9871fa4aa9"
+},
+{
+"path": "asset\\object\\o_hoe\\pack\\0000.png",
+"md5": "f51823afcb1f56ed7bc6efef56994b53"
+},
+{
+"path": "asset\\object\\o_house\\pack\\0000.png",
+"md5": "8c3a3e9ec5dbb12bb20867d3f29f7ecc"
+},
+{
+"path": "asset\\object\\o_key\\icon\\0.png",
+"md5": "a1e3e743fd362fdb651d6aed405d2b09"
+},
+{
+"path": "asset\\object\\o_key\\pack\\0000.png",
+"md5": "03a354d8aceb50da8de12af089f126d5"
+},
+{
+"path": "asset\\object\\o_key_town\\icon\\0.png",
+"md5": "a1e3e743fd362fdb651d6aed405d2b09"
+},
+{
+"path": "asset\\object\\o_key_town\\pack\\0000.png",
+"md5": "03a354d8aceb50da8de12af089f126d5"
+},
+{
+"path": "asset\\object\\o_knife\\icon\\0.png",
+"md5": "39d4ad5137424c0f1bed48d269dd747e"
+},
+{
+"path": "asset\\object\\o_knife\\pack\\0000.png",
+"md5": "c21685a3c6f82104ece812b05fe1bcfe"
+},
+{
+"path": "asset\\object\\o_lingot\\icon\\0.png",
+"md5": "ebc815ffa3648eeeee86641963361f0d"
+},
+{
+"path": "asset\\object\\o_lingot\\pack\\0000.png",
+"md5": "3eaf0285f61733869f21457af9143ceb"
+},
+{
+"path": "asset\\object\\o_lobster\\pack\\0000.png",
+"md5": "dc8f75f949b4c334d1fca62bc147c128"
+},
+{
+"path": "asset\\object\\o_lock\\pack\\0000.png",
+"md5": "52b34d8aa3f137004959d4fd79d10964"
+},
+{
+"path": "asset\\object\\o_lock_town\\pack\\0000.png",
+"md5": "6b0552e8e90ab1981b735eb3eb7e0edc"
+},
+{
+"path": "asset\\object\\o_mage\\pack\\0000.png",
+"md5": "61ebc6078235d8ac5f1ae11957ac8b84"
+},
+{
+"path": "asset\\object\\o_mage_curse\\pack\\0000.png",
+"md5": "2dce16f6f3a75852de19d5f864663433"
+},
+{
+"path": "asset\\object\\o_pickaxe\\icon\\0.png",
+"md5": "c220c97dac1142301f8df50ba042a402"
+},
+{
+"path": "asset\\object\\o_pickaxe\\pack\\0000.png",
+"md5": "a195d98071e52b59bea20cef3d5437b5"
+},
+{
+"path": "asset\\object\\o_potion_blue\\icon\\0.png",
+"md5": "9c63980c57a21fd66e875b4b67679383"
+},
+{
+"path": "asset\\object\\o_potion_blue\\pack\\0000.png",
+"md5": "317221a01553545df77bca647361fa1a"
+},
+{
+"path": "asset\\object\\o_potion_green\\icon\\0.png",
+"md5": "93cac58199ce293ad78d98af85e7da75"
+},
+{
+"path": "asset\\object\\o_potion_green\\pack\\0000.png",
+"md5": "f5fbe4963758a64420793c779435574d"
+},
+{
+"path": "asset\\object\\o_potion_grey\\icon\\0.png",
+"md5": "b7804e754cf6cff664c875143f0c9a27"
+},
+{
+"path": "asset\\object\\o_potion_grey\\pack\\0000.png",
+"md5": "e7235d47c394065081882406e925999c"
+},
+{
+"path": "asset\\object\\o_potion_red\\icon\\0.png",
+"md5": "85d8afffbf802860caba8fe5c9b33642"
+},
+{
+"path": "asset\\object\\o_potion_red\\pack\\0000.png",
+"md5": "bd8c67595889cd9f6a16bac39edf05a3"
+},
+{
+"path": "asset\\object\\o_princesse\\pack\\0000.png",
+"md5": "e633d51046ab16efda5b5764251bfd36"
+},
+{
+"path": "asset\\object\\o_princesse_curse\\pack\\0000.png",
+"md5": "32e8bf16cc2f1e7d02b603d13464bcc1"
+},
+{
+"path": "asset\\object\\o_princesse_curse_curse_yard\\pack\\0000.png",
+"md5": "32e8bf16cc2f1e7d02b603d13464bcc1"
+},
+{
+"path": "asset\\object\\o_rake\\icon\\0.png",
+"md5": "bb5fa1c89b681995ef237ffc9d20027b"
+},
+{
+"path": "asset\\object\\o_rake\\pack\\0000.png",
+"md5": "27e9fdfa7a623ca688554f354b490071"
+},
+{
+"path": "asset\\object\\o_rat\\pack\\0000.png",
+"md5": "46016654a3823722663f7238073cec22"
+},
+{
+"path": "asset\\object\\o_rat_curse\\pack\\0000.png",
+"md5": "92a95bff2c8cf754bd1f88176c87b850"
+},
+{
+"path": "asset\\object\\o_sceptre\\icon\\0.png",
+"md5": "69fca81bab06947b852275ed57178ec7"
+},
+{
+"path": "asset\\object\\o_sceptre\\pack\\0000.png",
+"md5": "919f1d3948f87cbb34831777c0c98122"
+},
+{
+"path": "asset\\object\\o_sewer_outlet\\pack\\0000.png",
+"md5": "4e6523b92a6238b6d3a273a0b911e8d0"
+},
+{
+"path": "asset\\object\\o_sheild\\icon\\0.png",
+"md5": "efebdc7587153d17d200a517f9ba67a6"
+},
+{
+"path": "asset\\object\\o_sheild\\pack\\0000.png",
+"md5": "da34197892b1f8ac2804962f1b5238d8"
+},
+{
+"path": "asset\\object\\o_shovel\\icon\\0.png",
+"md5": "bf8e6ca889eea66e1abdb7800ae5db2f"
+},
+{
+"path": "asset\\object\\o_shovel\\pack\\0000.png",
+"md5": "ec7366548be35c96b7bc8ce5a22c9d77"
+},
+{
+"path": "asset\\object\\o_shovel_campaign\\icon\\0.png",
+"md5": "bf8e6ca889eea66e1abdb7800ae5db2f"
+},
+{
+"path": "asset\\object\\o_shovel_campaign\\pack\\0000.png",
+"md5": "ec7366548be35c96b7bc8ce5a22c9d77"
+},
+{
+"path": "asset\\object\\o_sign\\pack\\0000.png",
+"md5": "709e0f50f00508f856bbecebecc27763"
+},
+{
+"path": "asset\\object\\o_spear\\icon\\0.png",
+"md5": "eb797750aa8ff6a5a5105977336f6e45"
+},
+{
+"path": "asset\\object\\o_spear\\pack\\0000.png",
+"md5": "d7d530be155c166948ea7996c7aff644"
+},
+{
+"path": "asset\\object\\o_spectrum\\pack\\0000.png",
+"md5": "f87a79bbc4c2e131afe19d59139e8079"
+},
+{
+"path": "asset\\object\\o_spider\\pack\\0000.png",
+"md5": "8f71cdf181e4ecce0cf930adbf9f9bbd"
+},
+{
+"path": "asset\\object\\o_sprout\\pack\\0000.png",
+"md5": "ca9fcbb1883bdeee31c3a4b258e571d0"
+},
+{
+"path": "asset\\object\\o_stair\\pack\\0000.png",
+"md5": "aad214bf00b61d77f1173aa91a0d769f"
+},
+{
+"path": "asset\\object\\o_sword\\icon\\0.png",
+"md5": "56c1d2172219aaf474badd369f8526b3"
+},
+{
+"path": "asset\\object\\o_sword\\pack\\0000.png",
+"md5": "2728ead42e8b836ab89824b7887296e9"
+},
+{
+"path": "asset\\object\\o_terrace\\pack\\0000.png",
+"md5": "8d65d4035b68b28f4aa69d8b66d94908"
+},
+{
+"path": "asset\\object\\o_tombe_stone\\pack\\0000.png",
+"md5": "0ce1fc542839aee16ed8f178945d9666"
+},
+{
+"path": "asset\\object\\o_tree\\pack\\0000.png",
+"md5": "b520a2f712b4cb516dd31d48992c0ec1"
+},
+{
+"path": "asset\\object\\o_tree_gold\\pack\\0000.png",
+"md5": "bcc95d643d1397b51c2605edc0431e36"
+},
+{
+"path": "asset\\object\\o_villager1\\pack\\0000.png",
+"md5": "45bb83b2a7f4a667e542915afb7b2c20"
+},
+{
+"path": "asset\\object\\o_villager1_town1\\pack\\0000.png",
+"md5": "45bb83b2a7f4a667e542915afb7b2c20"
+},
+{
+"path": "asset\\object\\o_villager1_town2\\pack\\0000.png",
+"md5": "45bb83b2a7f4a667e542915afb7b2c20"
+},
+{
+"path": "asset\\object\\o_villager1_town3\\pack\\0000.png",
+"md5": "1b385c6b444b9da84f9a7064d60d90ed"
+},
+{
+"path": "asset\\object\\o_villager1_town4\\pack\\0000.png",
+"md5": "45bb83b2a7f4a667e542915afb7b2c20"
+},
+{
+"path": "asset\\object\\o_villager1_town5\\pack\\0000.png",
+"md5": "45bb83b2a7f4a667e542915afb7b2c20"
+},
+{
+"path": "asset\\object\\o_villager1_town6\\pack\\0000.png",
+"md5": "45bb83b2a7f4a667e542915afb7b2c20"
+},
+{
+"path": "asset\\object\\o_villager2\\pack\\0000.png",
+"md5": "9eb91864c59bc643acdf8895defc1305"
+},
+{
+"path": "asset\\object\\o_villager2_town1\\pack\\0000.png",
+"md5": "9eb91864c59bc643acdf8895defc1305"
+},
+{
+"path": "asset\\object\\o_villager2_town2\\pack\\0000.png",
+"md5": "9eb91864c59bc643acdf8895defc1305"
+},
+{
+"path": "asset\\object\\o_villager2_town3\\pack\\0000.png",
+"md5": "9eb91864c59bc643acdf8895defc1305"
+},
+{
+"path": "asset\\object\\o_villager2_town4\\pack\\0000.png",
+"md5": "9eb91864c59bc643acdf8895defc1305"
+},
+{
+"path": "asset\\object\\o_villager2_town5\\pack\\0000.png",
+"md5": "9eb91864c59bc643acdf8895defc1305"
+},
+{
+"path": "asset\\object\\o_villager2_town6\\pack\\0000.png",
+"md5": "9eb91864c59bc643acdf8895defc1305"
+},
+{
+"path": "asset\\object\\o_villager2_town7\\pack\\0000.png",
+"md5": "9eb91864c59bc643acdf8895defc1305"
+},
+{
+"path": "asset\\object\\o_villager2_town8\\pack\\0000.png",
+"md5": "9eb91864c59bc643acdf8895defc1305"
+},
+{
+"path": "asset\\object\\o_villager2_town9\\pack\\0000.png",
+"md5": "9eb91864c59bc643acdf8895defc1305"
+},
+{
+"path": "asset\\object\\o_well\\pack\\0000.png",
+"md5": "96b6c90c85369d5aa24b83dbc180bdde"
+},
+{
+"path": "asset\\object\\o_well_village\\pack\\0000.png",
+"md5": "96b6c90c85369d5aa24b83dbc180bdde"
+},
+{
+"path": "asset\\object\\o_zombie\\pack\\0000.png",
+"md5": "4c4603a6b81a34b563a00ec837c54388"
+},
+{
+"path": "asset\\object\\o_zone_coffin\\pack\\0000.png",
+"md5": "a2b5c61a722e817b1ca1e7f4b2a524c3"
+},
+{
+"path": "asset\\player\\p_hero\\icon\\0.png",
+"md5": "8bd93ca99308936d1132d3cdaff7d4f8"
+},
+{
+"path": "image\\balloon.png",
+"md5": "cf8a9c6c7645978fc6ad7f29e3a3a382"
+},
+{
+"path": "image\\choice.png",
+"md5": "105bf4237360e5560ba8bcf0fd8a9d2c"
+},
+{
+"path": "image\\cover.png",
+"md5": "a79970127909d3c38b43d312212d16d2"
+},
+{
+"path": "image\\cursor.png",
+"md5": "96eb629001f09c1f8534b057167ac57b"
+},
+{
+"path": "image\\layout_autosave.png",
+"md5": "11b6a6c26f45c329ae072523cc78744c"
+},
+{
+"path": "image\\layout_bag.png",
+"md5": "434549bdaee65e15b6c525885f599647"
+},
+{
+"path": "image\\layout_menu.png",
+"md5": "3ebc19959c22cfcb8e6832b2cf46868b"
+},
+{
+"path": "image\\layout_object.png",
+"md5": "0f9f9af95a60f2fd82b8219072eb43bb"
+},
+{
+"path": "image\\layout_object_next.png",
+"md5": "215eaaf395b3846d97b7a216aa1532a0"
+},
+{
+"path": "image\\layout_object_prev.png",
+"md5": "5e903829a7200afff6c700d6a9813720"
+},
+{
+"path": "image\\layout_player.png",
+"md5": "d92e6a155ac70fa273812b8130da1283"
+},
+{
+"path": "image\\layout_shutup.png",
+"md5": "a5170c4a79291c9bea4e8c85a2b4b9b7"
+},
+{
+"path": "image\\magnify.png",
+"md5": "82cb32a5d349b0de8a808f1ab7989270"
+},
+{
+"path": "image\\menu.png",
+"md5": "c1151c4b7cf9c16beee9edf9a18738c3"
+}
+]
+}
